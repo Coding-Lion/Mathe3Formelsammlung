@@ -1,0 +1,354 @@
+\documentclass[12pt, a4paper]{scrartcl}
+
+\usepackage{mystyle, pgfplots, amssymb, todonotes, trfsigns}
+\usetikzlibrary{angles, arrows}
+\pgfplotsset{
+  width=7cm,
+  grid = major,
+  axis lines = center,
+}
+
+% \setlength{\extrarowheight}{12pt}
+
+\newenvironment{mathframed}{\empheq[box={\fbox}]{align*}}{\endempheq}
+\renewcommand{\im}{\textcolor{myred}{i}}
+
+\begin{document}
+
+\include{Title}
+\tableofcontents
+\clearpage
+
+\section{Grundlagen und Wiederholung}
+
+\subsection{Allgemeine trigonometrische Umformungen; Additionstheoreme und Doppelwinkelformeln}
+
+\bgroup
+\def\arraystretch{1.5}
+\begin{center}
+  \begin{tabularx}{.7\textwidth}{rXl}
+    \(\tan x\) & \(=\) & \(\frac{\sin x}{\cos x}\)\\
+    \(\sin ^2 x + \cos ^2 x\) & \(=\) & \(1\)\\[1em]
+    \(\sin ( x \pm y )\) & \(=\) & \(\sin x \cos y \pm \cos x \sin y\)\\
+    \(\cos ( x \pm y )\) & \(=\) & \(\cos x \cos y \mp \sin x \sin y\)\\
+    \(\tan ( x \pm y )\) & \(=\) & \(\frac{\tan x \pm \tan y}{1 \mp \tan x \tan y} = \frac{\sin ( x \pm y )}{\cos ( x \pm y )}\)\\[1em]
+    \(\sin (2x)\) & \(=\) &  \(2 \sin x \cos x\)\\
+    \(\cos (2x)\) & \(=\) & \(\cos ^2 x - \sin ^2 x = 1 - 2 \sin ^2 x = 2 \cos ^2 x - 1\)\\
+    \(\tan (2x)\) & \(=\) & \(\frac{2 \tan x}{1 - \tan ^2 x}\)
+  \end{tabularx}
+\end{center}
+\egroup
+
+\subsection{Komplexe Zahlen}
+
+\subsubsection{Darstellungsformen komplexer Zahlen}
+
+\begin{center}
+  \begin{tabularx}{\textwidth}{XX}
+    \toprule
+    Kartesische Form: & \(z = x + \im y\)\\
+    Polarform; Polarkoordinaten: & \(z = r \cos \varphi + \im r \sin \varphi\)\\
+    Exponentialform: & \(r e^{\im \varphi}\)\\
+    \bottomrule
+  \end{tabularx}
+
+  \begin{tikzpicture}
+    \begin{axis}[
+      ymin = -0.5,
+      xmin = -0.5,
+      xmax = 2,
+      ymax = 2,
+      xtick distance = 1,
+      ytick distance = 1,
+      grid = none,
+      xlabel = \(\operatorname{Re}\),
+      ylabel = \(\operatorname{Im}\),
+      extra x ticks = {1.6},
+      extra y ticks = {1.3},
+      extra x tick label = {\(x\)},
+      extra y tick label = {\(y\)},
+      width = \textwidth,
+      ]
+      \draw [->, >=stealth, very thick, myred] (axis cs:0,0) -- (axis cs:1.6, 1.3) node [sloped, above, midway] {\(r\)};
+      \draw [dotted] (axis cs:0,1.3) -- (axis cs:1.6,1.3);
+      \draw [dotted] (axis cs:1.6,0) -- (axis cs:1.6,1.3);
+      \path (axis cs:1.6,1.3) node [myred, above] {\(z\)};
+      \filldraw [fill = myred!20, draw = myred] (axis cs:0,0) -- (axis cs:0.5,0) arc [start angle=0, end angle=36.5, radius=2.7cm] -- cycle;
+      \path (axis cs:0.3,0.11) node [myred] {\(\varphi\)};
+    \end{axis}
+  \end{tikzpicture}
+\end{center}
+
+\subsubsection{Umrechnung verschiedener Darstellungsformen ineinander}
+
+\begin{mathframed}
+  z &= r \cos \varphi + \im r \sin \varphi = r e^{\im \varphi}\\
+  r &= |z| = \sqrt{x^2 + y^2}
+\end{mathframed}
+
+\begin{mathframed}
+  \arg (z) = \varphi =
+  \begin{cases}
+    \arctan \left(\frac{y}{x}\right) & \text{für } x>0, y \text{ bel.}\\
+    \arctan \left(\frac{y}{x}\right) + \pi & \text{für } x<0, y \geq 0\\
+    \arctan \left(\frac{y}{x}\right) + \pi & \text{für } x<0, y<0\\
+    \frac{\pi}{2} & \text{für } x = 0, y > 0\\
+    - \frac{\pi}{2} & \text{für } x = 0,y < 0
+  \end{cases}
+\end{mathframed}
+
+\subsubsection{Darstellung Sinus und Kosinus als komplexe Zahlen}
+
+Zudem können Kosinus und Sinus auch dargestellt werden durch:
+
+\begin{mathframed}
+  \cos \varphi = \frac{e^{\im \varphi} + e^{- \im \varphi}}{2} \qquad
+  \sin \varphi = \frac{e^{\im \varphi} - e^{- \im \varphi}}{2 \im}
+\end{mathframed}
+
+\section{Verallgemeinerte Funktionen}
+
+\subsection{Heaviside-Funktion}
+\begin{minipage}{.5\textwidth}
+  Die Heaviside-Funktion oder Einheitssprungfunktion ist definiert durch:
+  \[
+    \sigma (t) =
+    \begin{cases}
+      0 & t \in (-\infty, 0]\\
+    1 & t \in (0, \infty)
+  \end{cases}
+\]
+\end{minipage}\hfill%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[xmin = -5,
+        xmax = 5,
+        ymin = -1,
+        ymax = 2,
+        legend entries = {\(\sigma(t)\)},
+        ]
+      \addplot[domain=-5:0, myred, very thick] {0};
+      \addplot[domain=0:5, myred, very thick] {1};
+    \end{axis}
+  \end{tikzpicture}
+\end{minipage}
+
+\begin{minipage}{.5\textwidth}
+  Wird eine Funktion mit der Heaviside-Funktion multipliziert, so werden Teile der Funktion ausgeblendet.
+\end{minipage}\hfill%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[]
+      \addplot [domain=0:5, myred, very thick] {x^2+5};
+      \addplot [domain=-5:0, blue, very thick] {0};
+    \end{axis}
+  \end{tikzpicture}
+\end{minipage}
+
+\begin{minipage}{.5\textwidth}
+  Mithilfe der Heaviside-Funktion können Rechteckimpulse erstellt werden.
+
+  \begin{framed}
+    \[
+      r(t) = \sigma (t-t_0) - \sigma (t-t_1)
+    \]
+  \end{framed}
+\end{minipage}\hfill%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[
+        ymax=1.5,
+        xmin = -1,
+        xmax = 3,
+        xtick = {1,2},
+        xticklabels={
+          \(t_0\),
+          \(t_1\),
+        },
+        ]
+      \addplot [domain = -5:1, myred, very thick] {0};
+      \addplot [domain = 1:2, myred, very thick] {1};
+      \addplot [domain = 2:5, myred, very thick] {0};
+      \draw [very thick, myred] (axis cs:1,0) -- (axis cs:1,1);
+      \draw [very thick, myred] (axis cs:2,0) -- (axis cs:2,1);
+    \end{axis}
+  \end{tikzpicture}
+\end{minipage}
+
+\subsection{Dirac-Distribution}
+\begin{minipage}{.5\textwidth}
+  Die Dirac-Distribution ist definiert durch:
+  \[
+    \delta(x)=
+    \begin{cases}
+      0 & t \in \mathbb{R} \backslash 0\\
+      1 & t = 0\\
+    \end{cases}
+  \]
+\end{minipage}\hfill%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[
+        xmin = -5,
+        xmax = 5,
+        ymin = -1,
+        ymax = 2,
+        legend entries = {\(\delta(t)\)},
+        ]
+      \addplot[myred, very thick] {0};
+      \draw[->, very thick, myred, >=stealth] (axis cs:0,0) -- (axis cs:0,1);
+    \end{axis}
+  \end{tikzpicture}
+\end{minipage}
+
+Genauer wird die Dirac-Distribution durch eine Folge von Rechteckimpulsen hergeleitet, die den konstanten Flächeninhalt \(1\) besitzen, deren Breite dabei jedoch gegen \(0\) strebt, deren Höhe dafür aber gegen \(\infty\).
+
+\begin{minipage}{.5\textwidth}
+  Wird eine Funktion mit der Dirac-Distribution an einem Punkt \(t\) multipliziert, so wird die \textbf{gesamte Funktion, bis auf den Funktionswert an der Stelle \(t\) ausgeblendet!}
+\end{minipage}\hfill%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[
+        xmin = 0,
+        xmax = 5,
+        ymin = -1,
+        ymax = 5,
+        samples = 50,
+        ]
+      \addplot [gray] {(x-2)^2+2};
+      \draw [->, >=stealth, myred, very thick] (axis cs:3,0) -- (axis cs:3,3);
+    \end{axis}
+  \end{tikzpicture}
+  {\footnotesize \((t-2)^2+2 \cdot \delta(t-3)\)}
+\end{minipage}
+
+\subsection{Verallgemeinerte Ableitung}
+
+Leitet man die Heaviside-Funktion ab entsteht die Dirac-Distribution.
+
+\begin{framed}
+  \[
+    \dot{\sigma} (t) = \delta (t)
+  \]
+  \mybfred{Beim Ableiten ist insbesondere auf die innere Ableitung zu achten!}
+\end{framed}
+
+\subsubsection{Grafisches Ableiten verallgemeinerter Funktionen}
+
+\begin{minipage}{.45\textwidth}
+  Wird eine Funktion mit Unstetigkeitsstellen abgeleitet, so wird an der Sprungstelle ein Dirac-Impuls in Höhe und Richtung des Sprungs eingezeichnet. Dieser Impuls ist von der \(x\)-Achse aus zu zeichnen.
+\end{minipage}\hfill%
+\begin{minipage}{.45\textwidth}
+  \begin{tikzpicture}
+    \begin{axis}[
+        axis lines = center,
+        ymin = -1.5,
+        ymax = 1.5,
+        ytick distance = 0.5,
+        xtick distance = 1,
+        xlabel = \(t\),
+        ylabel = \(y\),
+        legend pos = outer north east,
+        ]
+      \addlegendentry{\(f(t)\)}
+      \addlegendentry{\(\dot{f} (t)\)}
+      \addplot [domain = -2:0, color = myred, very thick] {-0.5};
+      \addplot [domain = -2:0, color= mygreen, very thick] {0};
+      \addplot [domain = 0:1, myred, very thick] {x^2};
+      \addplot [domain = 1:2, myred, very thick] {1};
+
+      \addplot [domain = 0:1, color= mygreen, very thick] {2*x};
+      \addplot [domain = 1:2, color= mygreen, very thick] {0};
+      \draw [->, >=stealth, color= mygreen, very thick] (axis cs:0,0) -- (axis cs:0,0.5);
+    \end{axis}
+  \end{tikzpicture}
+\end{minipage}
+
+Jedoch kann die Dirac-Distribution mit unserem Wissensstand nicht weiter abgeleitet werden.
+
+\subsection{Faltung}
+
+"A convolution is an integral that expresses the amount of overlap of one function \(g\) as it is shifted over another function \(f\)." (\href{http://mathworld.wolfram.com/Convolution.html}{\texttt{http://mathworld.wolfram.com/Convolution.html}})
+
+Die Faltung ist definiert durch:
+
+\begin{mathframed}
+  h(t) = f(t) \star g(t) = \int_{-\infty}^{\infty}f(\tau) \cdot g(t-\tau) d \tau
+\end{mathframed}
+
+Dadurch entsteht eine neue Funktion \(h(t)\). \(\tau\) ist eine Dummy-Variable! Beim Integrieren verschwindet sie und bildet die Funktion wieder auf~ \(t\) ab.\todo{Noch mehr schreiben!}
+
+\subsection{Faltung mit der Dirac-Distribution}
+
+\section{Fourier-Transformation}
+
+Mithilfe der Fouriertransformation werden Funktionen aus dem Zeitbereich in den Frequenzbereich übersetzt:
+
+\begin{mathframed}
+  s(t)~\laplace~S(f) = \int_{-\infty}^{\infty} s(t) e^{- \im 2\pi ft} dt
+\end{mathframed}
+
+\subsection{Real- und Imaginärteil direkt berechnen}
+
+In der Regel ist das Ergebnis einer Fouriertransformation eine komplexwertige Funktion. Natürlich lässt sich diese stets in Real- und Imaginärteil aufspalten --- die Anteile lassen sich aber auch direkt berechnen:
+
+\begin{mathframed}
+  \operatorname{Re} (z) &= \int_{- \infty}^{\infty} s(t)\ \cos (2\pi f t)\ dt\\[1em]
+  \operatorname{Im} (z) &= \int_{- \infty}^{\infty} s(t)\ \sin (2\pi f t)\ dt
+\end{mathframed}
+
+\clearpage
+
+\subsection{Fourier-Transformation von geraden- und ungeraden Funktionen}
+
+Ist die zu transformierende Funktion \mybfred{gerade}, so ist die Transformierte \mybfred{rein reell und ebenfalls gerade}, aufgrund der Symmetrieeigenschaften des Kosinus. Zudem muss nicht mehr von \(- \infty\) bis \(\infty\) integriert werden. Es genügt das Integral von \(0\) bis \(\infty\) mit \(2\) zu multiplizieren. Ihre Berechnung reduziert sich dabei auf:
+
+\begin{mathframed}
+  S(f) = \operatorname{Re}(f) = 2 \int_{0}^{\infty} s(t)\ \cos (2\pi f t) dt
+\end{mathframed}
+
+Das selbe Prinzip lässt sich auf die Berechnung \mybfred{ungerader} Funktionen anwenden. Hier ist die Transformierte \mybfred{rein imaginär und ungerade}:
+
+\begin{mathframed}
+  S(f) = \im \operatorname{Im}(f) = -2\im \int_{0}^{\infty}s(t)\ \sin (2\pi f t) dt
+\end{mathframed}
+
+\subsection{Eigenschaften der Fourier-Transformation}
+
+\bgroup
+\def\arraystretch{1.5}
+\begin{tabularx}{\textwidth}{XXX}
+  \toprule
+  \mybfred{Eigenschaft} & \mybfred{Zeitbereich} & \mybfred{Frequenzbereich}\\
+  \midrule
+  Linearität & \(C_1 s_1(t) + C_2 s_2(t)\) & \(C_1 S_1(f) + C_2 S_2(f)\)\\
+  Zeitverschiebung & \(s(t-t_0)\) & \(e^{- \im 2\pi f t_0} S(f)\)\\
+  Frequenzverschiebung & \(e^{\im 2 \pi f_0 t}s(t)\) & \(S(f-f_0)\)\\
+  Amplitudenmodulation & \(s(t) \cos (2 \pi f_0 t)\) & \(\frac{1}{2}(S(f-f_0) + S(f+f_0))\)\\
+  Ähnlichkeit & \(s(at)\) & \(\frac{1}{|a|}S \left(\frac{f}{a}\right)\)\\
+  Zeitumkehr & \(s(-t)\) & \(S(-f)\)\\
+  \bottomrule
+\end{tabularx}
+\egroup
+
+\section{Laplacetransformation}
+
+\section{z-Transformation}
+
+\section{Statistik}
+
+\subsection{Beschreibende Statistik}
+\subsection{Wahrscheinlichkeitsrechnung}
+\subsection{Schließende Statistik}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

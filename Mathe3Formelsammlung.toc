@@ -1,0 +1,48 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Grundlagen und Wiederholung}{3}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Allgemeine trigonometrische Umformungen; Additionstheoreme und Doppelwinkelformeln}{3}{subsection.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Komplexe Zahlen}{3}{subsection.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.1}Darstellungsformen komplexer Zahlen}{3}{subsubsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.2}Umrechnung verschiedener Darstellungsformen ineinander}{4}{subsubsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.3}Darstellung Sinus und Kosinus als komplexe Zahlen}{5}{subsubsection.1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Verallgemeinerte Funktionen}{5}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Heaviside-Funktion}{5}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Dirac-Distribution}{6}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Verallgemeinerte Ableitung}{6}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1}Grafisches Ableiten verallgemeinerter Funktionen}{7}{subsubsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Faltung}{7}{subsection.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5}Faltung mit der Dirac-Distribution}{7}{subsection.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Fourier-Transformation}{7}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Real- und Imaginärteil direkt berechnen}{8}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Fourier-Transformation von geraden- und ungeraden Funktionen}{9}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Eigenschaften der Fourier-Transformation}{9}{subsection.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Laplacetransformation}{10}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}z-Transformation}{10}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Statistik}{10}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Beschreibende Statistik}{10}{subsection.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Wahrscheinlichkeitsrechnung}{10}{subsection.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3}Schließende Statistik}{10}{subsection.6.3}
