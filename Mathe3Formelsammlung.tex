@@ -120,7 +120,17 @@ Der Sinus Kardinals \(\operatorname{si}(x)\) ist definiert als
 \]
 \end{minipage}%
 \begin{minipage}{.5\linewidth}
-  \missingfigure{Sinus Kardinalis, mit Python plotten}
+  \begin{center}
+    \begin{tikzpicture}
+      \begin{axis}[
+          xmin = -4*pi,
+          xmax = 4*pi,
+          samples = 200,
+          ]
+        \addplot[myred,very thick,domain=-4*pi:4*pi]{sin(deg(x))/x};
+      \end{axis}
+    \end{tikzpicture}
+  \end{center}
 \end{minipage}
 
 \begin{minipage}{.5\linewidth}
@@ -134,9 +144,18 @@ Der Sinus Kardinals \(\operatorname{si}(x)\) ist definiert als
   \]
 \end{minipage}%
 \begin{minipage}{.5\linewidth}
-  \missingfigure{\(\operatorname{sinc}(x)\)-Funktion, auch mit Python plotten}
+  \begin{center}
+    \begin{tikzpicture}
+      \begin{axis}[
+          xmin = -4*pi,
+          xmax = 4*pi,
+          samples = 200,
+          ]
+        \addplot[myred,very thick,domain=-4*pi:4*pi]{(sin(deg(pi*x)))/(pi*x)};
+      \end{axis}
+    \end{tikzpicture}
+  \end{center}
 \end{minipage}
-
 
 \section{Verallgemeinerte Funktionen}
 
@@ -349,6 +368,22 @@ Das selbe Prinzip lässt sich auf die Berechnung \mybfred{ungerader} Funktionen 
 \begin{mathframed}
   S(f) = \im \operatorname{Im}(f) = -2\im \int_{0}^{\infty}s(t)\ \sin (2\pi f t) dt
 \end{mathframed}
+
+\subsection{Darstellung mit Amplituden- und Phasenwinkel}
+
+Fourierreihen lassen sich auch in Exponentialform darstellen:
+
+\begin{mathframed}
+  S(f) = |S(f)| e^{\im\varphi (f)}
+\end{mathframed}
+
+Dabei ist
+\begin{itemize}
+\item Die Amplitude \(|S(f)| = \sqrt{\operatorname{Re}(f)^2 + \operatorname{Im}(f)^2}\) eine \mybfred{gerade, reelle} Funktion
+\item Die Phase \(\varphi(f) = \arg (S(f)) = \arg (\operatorname{Re}(f) + \im\operatorname{Im}(f))\) eine \mybfred{ungerade, reelle} Funktion.
+\end{itemize}
+
+Diese Darstellung findet insbesondere in der Elektrotechnik ihre Anwendung (Bode-Diagramm).
 
 \clearpage
 \subsection{Eigenschaften der Fourier-Transformation}

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/Arch Linux)  (format=lualatex 2018.9.7)  26 OCT 2018 15:53
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/Arch Linux)  (format=lualatex 2018.9.7)  26 OCT 2018 16:17
  system commands enabled.
  file:line:error style messages enabled.
 **\input Mathe3Formelsammlung.tex
@@ -21,7 +21,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.078 seconds
+luaotfload | main : initialization completed in 0.077 seconds
 (./Mathe3Formelsammlung.tex
 (/usr/share/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2018/03/30 v3.25 KOMA-Script document class (article)
@@ -2205,7 +2205,7 @@ ding the todonotes package. on input line 16.
 Package svg Info: Last page of `./svg-inkscape/LogoHS_Esslingen_svg-tex.pdf' is 
 1 on input line 4.
  (./svg-inkscape/LogoHS_Esslingen_svg-tex.pdf_tex
-<./svg-inkscape/LogoHS_Esslingen_svg-tex.pdf, id=104, page=1, 496.1876pt x 113.5
+<./svg-inkscape/LogoHS_Esslingen_svg-tex.pdf, id=108, page=1, 496.1876pt x 113.5
 5495pt>
 File: ./svg-inkscape/LogoHS_Esslingen_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/LogoHS_Esslingen_svg-tex.pdf, page 1>
@@ -2323,65 +2323,63 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 109.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 109.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input li
-ne 123.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 161.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 161.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 182.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 182.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 182.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 182.
+(babel)             in language  on input line 202.
  [5]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 213.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 213.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 282.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 282.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 282.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 282.
  [6]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 282.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 282.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 273.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 273.
+(babel)             in language  on input line 293.
 
-Overfull \hbox (14.66457pt too wide) in paragraph at lines 301--302
+Overfull \hbox (14.66457pt too wide) in paragraph at lines 321--322
 [][] 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 306.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 306.
+(babel)             in language  on input line 326.
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.60004pt on input line 308.
+(Font)              scaled to size 9.60004pt on input line 328.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 314.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 314.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 314.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 314.
+(babel)             in language  on input line 334.
 [7
 Missing character: There is no . (U+002E) in font nullfont!
 Missing character: There is no 0 (U+0030) in font nullfont!
@@ -2389,99 +2387,111 @@ Missing character: There is no 1 (U+0031) in font nullfont!
 Missing character: There is no p (U+0070) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
 ]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input li
+ne 336.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 318.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 318.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 320.
+(babel)             in language  on input line 340.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 320.
+(babel)             in language  on input line 340.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 328.
+(babel)             in language  on input line 348.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 328.
+(babel)             in language  on input line 348.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 357.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 357.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 357.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 357.
  [8]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 339.
+(babel)             in language  on input line 359.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 339.
+(babel)             in language  on input line 359.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 373.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 373.
+
+Overfull \hbox (1.84784pt too wide) in paragraph at lines 387--388
+[]\TU/MinionPro(0)/m/n/12 Die-se Dar-stel-lung fin-det ins-be-son-de-re in der 
+Elek-tro-tech-nik ih-re An-wen-dung (Bode-Diagramm). 
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 353.
+(babel)             in language  on input line 389.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 353.
- [9
+(babel)             in language  on input line 389.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 389.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 389.
+[9
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 354.
+(babel)             in language  on input line 390.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 354.
+(babel)             in language  on input line 390.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 408.
+(babel)             in language  on input line 444.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 408.
+(babel)             in language  on input line 444.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 408.
+(babel)             in language  on input line 444.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 408.
+(babel)             in language  on input line 444.
  [10
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 446.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 446.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 412.
+(babel)             in language  on input line 448.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 412.
+(babel)             in language  on input line 448.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 414.
+(babel)             in language  on input line 450.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 414.
+(babel)             in language  on input line 450.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 452.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 452.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 453.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 453.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 418.
+(babel)             in language  on input line 454.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 418.
+(babel)             in language  on input line 454.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 420.
+(babel)             in language  on input line 456.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 420.
+(babel)             in language  on input line 456.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 420.
+(babel)             in language  on input line 456.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 420.
+(babel)             in language  on input line 456.
  [11
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 420.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 420.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 456.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 456.
  (./Mathe3Formelsammlung.aux (./Title.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 420.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 420.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 456.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 456.
 Package rerunfilecheck Info: File `Mathe3Formelsammlung.out' has not changed.
-(rerunfilecheck)             Checksum: 9B900F64FA99B4EE9E2872021FD3CB07;1883.
+(rerunfilecheck)             Checksum: B66356FE3C3D9D03606208C9FAA8888F;1977.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2492,15 +2502,15 @@ Package logreq Info: Writing requests to 'Mathe3Formelsammlung.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 53567 strings out of 494412
+ 53590 strings out of 494412
  100000,1977958 words of node,token memory allocated
- 2196 words of node memory still in use:
+ 2200 words of node memory still in use:
    36 hlist, 7 vlist, 2 rule, 1 disc, 2 local_par, 64 glue, 10 kern, 4 penalty, 
-19 glyph, 120 attribute, 73 glue_spec, 120 attribute_list, 3 write, 2 save_pos, 
+19 glyph, 121 attribute, 73 glue_spec, 121 attribute_list, 3 write, 2 save_pos, 
 65 pdf_literal, 1 pdf_action nodes
-   avail lists: 1:4,2:2978,3:973,4:170,5:480,6:81,7:2415,8:272,9:814,10:6,11:154
-,12:1
- 55905 multiletter control sequences out of 65536+600000
+   avail lists: 1:4,2:3564,3:1219,4:176,5:509,6:81,7:2415,8:272,9:814,10:6,11:15
+9,12:1
+ 55927 multiletter control sequences out of 65536+600000
  106 fonts using 15209863 bytes
  73i,19n,100p,9105b,2267s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePro-Regular.
@@ -2518,10 +2528,10 @@ nts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/tex
 mf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Mathe3Formelsammlung.pdf (11 pages, 172919 bytes).
+Output written on Mathe3Formelsammlung.pdf (11 pages, 178070 bytes).
 
-PDF statistics: 308 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
- 38 named destinations out of 1000 (max. 131072)
- 208 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 314 PDF objects out of 1000 (max. 8388607)
+ 267 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 131072)
+ 216 words of extra memory for PDF output out of 10000 (max. 100000000)
 
