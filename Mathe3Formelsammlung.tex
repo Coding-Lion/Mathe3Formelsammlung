@@ -106,6 +106,38 @@ Zudem können Kosinus und Sinus auch dargestellt werden durch:
   \sin \varphi = \frac{e^{\im \varphi} - e^{- \im \varphi}}{2 \im}
 \end{mathframed}
 
+\subsection{Sinus Kardinalis}
+
+\begin{minipage}{.5\linewidth}
+Der Sinus Kardinals \(\operatorname{si}(x)\) ist definiert als
+
+\[
+  \operatorname{si}(x)=
+  \begin{cases}
+    \frac{\sin(x)}{x} & x \in \mathbb{R} \backslash 0\\
+    1 & x = 0
+  \end{cases}
+\]
+\end{minipage}%
+\begin{minipage}{.5\linewidth}
+  \missingfigure{Sinus Kardinalis, mit Python plotten}
+\end{minipage}
+
+\begin{minipage}{.5\linewidth}
+  Eine spezielle Form ist die \(\operatorname{sinc}(x)\)-Funktion. Sie ist definiert als:
+  \[
+    \operatorname{sinc}(x)=
+    \begin{cases}
+      \frac{\sin(\pi x)}{\pi x} & x \in\mathbb{R} \backslash 0\\
+      1 & x = 0
+    \end{cases}
+  \]
+\end{minipage}%
+\begin{minipage}{.5\linewidth}
+  \missingfigure{\(\operatorname{sinc}(x)\)-Funktion, auch mit Python plotten}
+\end{minipage}
+
+
 \section{Verallgemeinerte Funktionen}
 
 \subsection{Heaviside-Funktion}
@@ -318,6 +350,7 @@ Das selbe Prinzip lässt sich auf die Berechnung \mybfred{ungerader} Funktionen 
   S(f) = \im \operatorname{Im}(f) = -2\im \int_{0}^{\infty}s(t)\ \sin (2\pi f t) dt
 \end{mathframed}
 
+\clearpage
 \subsection{Eigenschaften der Fourier-Transformation}
 
 \bgroup
@@ -332,9 +365,47 @@ Das selbe Prinzip lässt sich auf die Berechnung \mybfred{ungerader} Funktionen 
   Amplitudenmodulation & \(s(t) \cos (2 \pi f_0 t)\) & \(\frac{1}{2}(S(f-f_0) + S(f+f_0))\)\\
   Ähnlichkeit & \(s(at)\) & \(\frac{1}{|a|}S \left(\frac{f}{a}\right)\)\\
   Zeitumkehr & \(s(-t)\) & \(S(-f)\)\\
+  \midrule
+  Differenziation in \(t\) & \makecell{
+    \(\dot{s}(t)\)\\
+    \(\ddot{s}(t)\)\\
+    \(\vdots\)\\
+    \(\frac{d^n}{dt^n}s(t)\)
+  } & \makecell{
+    \(\im 2\pi f S(f)\)\\
+    \({(\im 2 \pi f)}^2 S(f)\)\\
+    \(\vdots\)\\
+    \({(\im 2\pi f)}^n S(f)\)
+  }\\ \midrule
+  Differenziation in \(f\) & \makecell{
+    \((-\im 2 \pi t) s(t)\)\\
+    \({(-\im 2 \pi t)}^2 s(t)\)\\
+    \vdots\\
+    \({(-\im 2 \pi t)}^n s(t)\)\\
+  } & \makecell{
+    \(\dot{S}(f)\)\\
+    \(\ddot{S}(f)\)\\
+    \(\vdots\)\\
+    \(\frac{d^n}{dt^n}S(f)\)
+  }\\ \midrule
+  Multiplikation in \(t\) & \makecell{
+    \(ts(t)\)\\
+    \(t^2s(t)\)\\
+    \vdots\\
+    \(t^n s(t)\)\\
+  } & \makecell{
+    \(S'(f)\)\\
+    \(\frac{S''(f)}{-\im 2 \pi}\)\\
+    \vdots\\
+    \(\frac{S^{(n)}}{{(-\im 2 \pi)}^n}\)
+  }\\ \midrule
+  Integration & \(\int_{-\infty}^t s(\tau) d \tau\) & \(\frac{1}{\im 2 \pi f} S(f) + \frac{1}{2} S(0) \delta (f)\)\\
+  Faltung in \(t\) & \(s_1(t) \star s_2(t)\) & \(S_1(f) \cdot S_2(f)\)\\
+  Faltung in \(f\) & \(s_1(t) \cdot s_2(t)\) & \(S_1(f) \star S_2(f)\)\\
   \bottomrule
 \end{tabularx}
 \egroup
+\clearpage
 
 \section{Laplacetransformation}
 
