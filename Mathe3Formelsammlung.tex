@@ -1,6 +1,6 @@
 \documentclass[12pt, a4paper]{scrartcl}
 
-\usepackage{mystyle, pgfplots, amssymb, todonotes, trfsigns}
+\usepackage{mystyle, pgfplots, amssymb, todonotes}
 \usetikzlibrary{angles, arrows}
 \pgfplotsset{
   width=7cm,
@@ -9,9 +9,6 @@
 }
 
 % \setlength{\extrarowheight}{12pt}
-
-\newenvironment{mathframed}{\empheq[box={\fbox}]{align*}}{\endempheq}
-\renewcommand{\im}{\textcolor{myred}{i}}
 
 \begin{document}
 
@@ -220,11 +217,23 @@ Der Sinus Kardinals \(\operatorname{si}(x)\) ist definiert als
           \(t_1\),
         },
         ]
-      \addplot [domain = -5:1, myred, very thick] {0};
-      \addplot [domain = 1:2, myred, very thick] {1};
-      \addplot [domain = 2:5, myred, very thick] {0};
-      \draw [very thick, myred] (axis cs:1,0) -- (axis cs:1,1);
-      \draw [very thick, myred] (axis cs:2,0) -- (axis cs:2,1);
+      % Wenn mans umständlich machen will:
+      %
+      % \addplot [domain = -5:1, myred, very thick] {0};
+      % \addplot [domain = 1:2, myred, very thick] {1};
+      % \addplot [domain = 2:5, myred, very thick] {0};
+      % \draw [very thick, myred] (axis cs:1,0) -- (axis cs:1,1);
+      % \draw [very thick, myred] (axis cs:2,0) -- (axis cs:2,1);
+      %
+      % Wenn mans klug machen will:
+      \addplot [myred, very thick] coordinates {
+        (-5, 0)
+        (1, 0)
+        (1, 1)
+        (2, 1)
+        (2, 0)
+        (5, 0)
+      };
     \end{axis}
   \end{tikzpicture}
 \end{minipage}
@@ -308,14 +317,26 @@ Leitet man die Heaviside-Funktion ab entsteht die Dirac-Distribution.
         ]
       \addlegendentry{\(f(t)\)}
       \addlegendentry{\(\dot{f} (t)\)}
-      \addplot [domain = -2:0, color = myred, very thick] {-0.5};
-      \addplot [domain = -2:0, color= mygreen, very thick] {0};
+      \addplot [myred, very thick] coordinates {
+        (-2, -0.5)
+        (0, -0.5)
+      };
+      \addplot [mygreen, very thick] coordinates {
+        (-2, 0)
+        (0, 0)
+        (1, 2)
+      };
       \addplot [domain = 0:1, myred, very thick] {x^2};
-      \addplot [domain = 1:2, myred, very thick] {1};
-
-      \addplot [domain = 0:1, color= mygreen, very thick] {2*x};
-      \addplot [domain = 1:2, color= mygreen, very thick] {0};
+      \addplot [myred, very thick] coordinates {
+        (1, 0.5)
+        (2, 0.5)
+      };
+      \addplot[mygreen, very thick] coordinates {
+        (1, 0)
+        (2, 0)
+      };
       \draw [->, >=stealth, color= mygreen, very thick] (axis cs:0,0) -- (axis cs:0,0.5);
+      \draw [->, >=stealth, color= mygreen, very thick] (axis cs:1,0) -- (axis cs:1,-0.5);
     \end{axis}
   \end{tikzpicture}
 \end{minipage}
@@ -350,7 +371,7 @@ In der Regel ist das Ergebnis einer Fouriertransformation eine komplexwertige Fu
 
 \begin{mathframed}
   \operatorname{Re} (z) &= \int_{- \infty}^{\infty} s(t)\ \cos (2\pi f t)\ dt\\[1em]
-  \operatorname{Im} (z) &= \int_{- \infty}^{\infty} s(t)\ \sin (2\pi f t)\ dt
+  \operatorname{Im} (z) &= -\int_{- \infty}^{\infty} s(t)\ \sin (2\pi f t)\ dt
 \end{mathframed}
 
 \clearpage
@@ -385,6 +406,14 @@ Dabei ist
 
 Diese Darstellung findet insbesondere in der Elektrotechnik ihre Anwendung (Bode-Diagramm).
 
+\subsection{Inverse Fourier-Transformation}
+
+Um aus einer fouriertransormierten Funktion \(S(f)\) die Zeitfunktion \(s(t)\) zu erhalten muss \(S(f)\) \textbf{rücktransformiert} werden:
+
+\begin{mathframed}
+  S(f)~\Laplace~s(t) = \int_{-\infty}^{\infty} S(f) e^{\im 2 \pi f} df
+\end{mathframed}
+
 \clearpage
 \subsection{Eigenschaften der Fourier-Transformation}
 
@@ -395,7 +424,7 @@ Diese Darstellung findet insbesondere in der Elektrotechnik ihre Anwendung (Bode
   \mybfred{Eigenschaft} & \mybfred{Zeitbereich} & \mybfred{Frequenzbereich}\\
   \midrule
   Linearität & \(C_1 s_1(t) + C_2 s_2(t)\) & \(C_1 S_1(f) + C_2 S_2(f)\)\\
-  Zeitverschiebung & \(s(t-t_0)\) & \(e^{- \im 2\pi f t_0} S(f)\)\\
+  Zeitverschiebung: \mybfred{Wenn nach rechts verschoben wird ist Exponent negativ!} & \(s(t-t_0)\) & \(e^{- \im 2\pi f t_0} S(f)\)\\
   Frequenzverschiebung & \(e^{\im 2 \pi f_0 t}s(t)\) & \(S(f-f_0)\)\\
   Amplitudenmodulation & \(s(t) \cos (2 \pi f_0 t)\) & \(\frac{1}{2}(S(f-f_0) + S(f+f_0))\)\\
   Ähnlichkeit & \(s(at)\) & \(\frac{1}{|a|}S \left(\frac{f}{a}\right)\)\\

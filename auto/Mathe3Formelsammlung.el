@@ -13,11 +13,8 @@
     "mystyle"
     "pgfplots"
     "amssymb"
-    "todonotes"
-    "trfsigns")
+    "todonotes")
    (TeX-add-symbols
-    "arraystretch")
-   (LaTeX-add-environments
-    "mathframed"))
+    "arraystretch"))
  :latex)
 
