@@ -27,28 +27,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4}Faltung}{7}{subsection.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Faltung mit der Dirac-Distribution}{8}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.5}Faltung mit \(\sigma (t)\)}{8}{subsection.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6}Faltung mit \(\delta (t)\)}{8}{subsection.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7}Einseitige Faltung}{8}{subsection.2.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Fourier-Transformation}{8}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Real- und Imaginärteil direkt berechnen}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}Real- und Imaginärteil direkt berechnen}{9}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Fourier-Transformation von geraden- und ungeraden Funktionen}{9}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Fourier-Transformation von geraden- und ungeraden Funktionen}{10}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Darstellung mit Amplituden- und Phasenwinkel}{9}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Darstellung mit Amplituden- und Phasenwinkel}{10}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Inverse Fourier-Transformation}{9}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.4}Inverse Fourier-Transformation}{10}{subsection.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5}Eigenschaften der Fourier-Transformation}{11}{subsection.3.5}
+\contentsline {section}{\numberline {4}Laplacetransformation}{11}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Laplacetransformation}{12}{section.4}
+\contentsline {section}{\numberline {5}z-Transformation}{11}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}z-Transformation}{12}{section.5}
+\contentsline {section}{\numberline {6}Statistik}{11}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Statistik}{12}{section.6}
+\contentsline {subsection}{\numberline {6.1}Beschreibende Statistik}{11}{subsection.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Beschreibende Statistik}{12}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Wahrscheinlichkeitsrechnung}{11}{subsection.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Wahrscheinlichkeitsrechnung}{12}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Schließende Statistik}{11}{subsection.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Schließende Statistik}{12}{subsection.6.3}
+\contentsline {section}{\numberline {7}Tabellen}{11}{section.7}

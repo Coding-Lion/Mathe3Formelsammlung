@@ -13,7 +13,8 @@
     "mystyle"
     "pgfplots"
     "amssymb"
-    "todonotes")
+    "todonotes"
+    "pdfpages")
    (TeX-add-symbols
     "arraystretch"))
  :latex)

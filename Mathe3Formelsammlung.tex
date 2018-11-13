@@ -1,6 +1,6 @@
 \documentclass[12pt, a4paper]{scrartcl}
 
-\usepackage{mystyle, pgfplots, amssymb, todonotes}
+\usepackage{mystyle, pgfplots, amssymb, todonotes, pdfpages}
 \usetikzlibrary{angles, arrows}
 \pgfplotsset{
   width=7cm,
@@ -78,10 +78,14 @@
 
 \subsubsection{Umrechnung verschiedener Darstellungsformen ineinander}
 
-\begin{mathframed}
-  z &= r \cos \varphi + \im r \sin \varphi = r e^{\im \varphi}\\
-  r &= |z| = \sqrt{x^2 + y^2}
-\end{mathframed}
+\begin{mybox}
+  \(
+  \begin{aligned}
+    z &= r \cos \varphi + \im r \sin \varphi = r e^{\im \varphi}\\
+    r &= |z| = \sqrt{x^2 + y^2}
+  \end{aligned}
+  \)
+\end{mybox}
 
 \begin{mathframed}
   \arg (z) = \varphi =
@@ -353,9 +357,34 @@ Die Faltung ist definiert durch:
   h(t) = f(t) \star g(t) = \int_{-\infty}^{\infty}f(\tau) \cdot g(t-\tau) d \tau
 \end{mathframed}
 
-Dadurch entsteht eine neue Funktion \(h(t)\). \(\tau\) ist eine Dummy-Variable! Beim Integrieren verschwindet sie und bildet die Funktion wieder auf~ \(t\) ab.\todo{Noch mehr schreiben!}
+Dadurch entsteht eine neue Funktion \(h(t)\). \(\tau\) ist eine Dummy-Variable! Beim Integrieren verschwindet sie und bildet die Funktion wieder auf~ \(t\) ab.
 
-\subsection{Faltung mit der Dirac-Distribution}
+
+\subsection{Faltung mit \(\sigma (t)\)}
+
+Wird eine Funktion mit \(\sigma (t)\) gefaltet, so ergibt sich für das Faltungsintegral:
+
+\[
+  (t) \star \sigma (t) = \int_{-\infty}^{\infty} f(\tau) \cdot \sigma(t - \tau) d\tau = \int_{-\infty}^t f(\tau) d\tau
+\]
+
+\subsection{Faltung mit \(\delta(t)\)}
+
+Wird eine Funktion \(f(t)\) mit der Dirac-Distribution \(\delta (t)\) gefaltet, so ergibt sich:
+
+\[
+  f(t) \star \delta(t) = \int_{-\infty}^{\infty} f(\tau) \cdot \delta(t - \tau) d\tau = f(t)
+\]
+
+Dies haben wir den Ausblendeigenschaften der Dirac-Distribution zu verdanken.
+
+\subsection{Einseitige Faltung}
+
+Sind beide Funktionen \(f(t)\)~und \(g(t) = 0\)~für \(x \leq 0\), so ergibt sich das Faltungsintegral:
+
+\[
+  f(t) \star g(t) = \int_0^t f(\tau) \cdot g(t - \tau) d\tau
+\]
 
 \section{Fourier-Transformation}
 
@@ -410,69 +439,20 @@ Diese Darstellung findet insbesondere in der Elektrotechnik ihre Anwendung (Bode
 
 Um aus einer fouriertransormierten Funktion \(S(f)\) die Zeitfunktion \(s(t)\) zu erhalten muss \(S(f)\) \textbf{rücktransformiert} werden:
 
+
 \begin{mathframed}
   S(f)~\Laplace~s(t) = \int_{-\infty}^{\infty} S(f) e^{\im 2 \pi f} df
 \end{mathframed}
 
 \clearpage
-\subsection{Eigenschaften der Fourier-Transformation}
-
-\bgroup
-\def\arraystretch{1.5}
-\begin{tabularx}{\textwidth}{XXX}
-  \toprule
-  \mybfred{Eigenschaft} & \mybfred{Zeitbereich} & \mybfred{Frequenzbereich}\\
-  \midrule
-  Linearität & \(C_1 s_1(t) + C_2 s_2(t)\) & \(C_1 S_1(f) + C_2 S_2(f)\)\\
-  Zeitverschiebung: \mybfred{Wenn nach rechts verschoben wird ist Exponent negativ!} & \(s(t-t_0)\) & \(e^{- \im 2\pi f t_0} S(f)\)\\
-  Frequenzverschiebung & \(e^{\im 2 \pi f_0 t}s(t)\) & \(S(f-f_0)\)\\
-  Amplitudenmodulation & \(s(t) \cos (2 \pi f_0 t)\) & \(\frac{1}{2}(S(f-f_0) + S(f+f_0))\)\\
-  Ähnlichkeit & \(s(at)\) & \(\frac{1}{|a|}S \left(\frac{f}{a}\right)\)\\
-  Zeitumkehr & \(s(-t)\) & \(S(-f)\)\\
-  \midrule
-  Differenziation in \(t\) & \makecell{
-    \(\dot{s}(t)\)\\
-    \(\ddot{s}(t)\)\\
-    \(\vdots\)\\
-    \(\frac{d^n}{dt^n}s(t)\)
-  } & \makecell{
-    \(\im 2\pi f S(f)\)\\
-    \({(\im 2 \pi f)}^2 S(f)\)\\
-    \(\vdots\)\\
-    \({(\im 2\pi f)}^n S(f)\)
-  }\\ \midrule
-  Differenziation in \(f\) & \makecell{
-    \((-\im 2 \pi t) s(t)\)\\
-    \({(-\im 2 \pi t)}^2 s(t)\)\\
-    \vdots\\
-    \({(-\im 2 \pi t)}^n s(t)\)\\
-  } & \makecell{
-    \(\dot{S}(f)\)\\
-    \(\ddot{S}(f)\)\\
-    \(\vdots\)\\
-    \(\frac{d^n}{dt^n}S(f)\)
-  }\\ \midrule
-  Multiplikation in \(t\) & \makecell{
-    \(ts(t)\)\\
-    \(t^2s(t)\)\\
-    \vdots\\
-    \(t^n s(t)\)\\
-  } & \makecell{
-    \(S'(f)\)\\
-    \(\frac{S''(f)}{-\im 2 \pi}\)\\
-    \vdots\\
-    \(\frac{S^{(n)}}{{(-\im 2 \pi)}^n}\)
-  }\\ \midrule
-  Integration & \(\int_{-\infty}^t s(\tau) d \tau\) & \(\frac{1}{\im 2 \pi f} S(f) + \frac{1}{2} S(0) \delta (f)\)\\
-  Faltung in \(t\) & \(s_1(t) \star s_2(t)\) & \(S_1(f) \cdot S_2(f)\)\\
-  Faltung in \(f\) & \(s_1(t) \cdot s_2(t)\) & \(S_1(f) \star S_2(f)\)\\
-  \bottomrule
-\end{tabularx}
-\egroup
-\clearpage
 
 \section{Laplacetransformation}
 
+  Die Berechnung der Laplace-Transformation ist definiert durch:
+  
+\begin{mathbox}
+    f(t)~\laplace~F(s) = \int_0^{\infty}f(t) \cdot e^{-st} dt
+\end{mathbox}
 \section{z-Transformation}
 
 \section{Statistik}
@@ -480,6 +460,10 @@ Um aus einer fouriertransormierten Funktion \(S(f)\) die Zeitfunktion \(s(t)\) z
 \subsection{Beschreibende Statistik}
 \subsection{Wahrscheinlichkeitsrechnung}
 \subsection{Schließende Statistik}
+
+\section{Tabellen}
+
+\includepdf[pages=-]{Cheatsheet.pdf}
 
 \end{document}
 
