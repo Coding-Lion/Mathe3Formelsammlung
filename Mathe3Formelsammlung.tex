@@ -1,4 +1,4 @@
-\documentclass[12pt, a4paper]{scrartcl}
+\documentclass[12pt, a4paper]{scrreprt}
 
 \usepackage{mystyle, pgfplots, amssymb, todonotes, pdfpages}
 \usetikzlibrary{angles, arrows}
@@ -16,9 +16,9 @@
 \tableofcontents
 \clearpage
 
-\section{Grundlagen und Wiederholung}
+\chapter{Grundlagen und Wiederholung}
 
-\subsection{Allgemeine trigonometrische Umformungen; Additionstheoreme und Doppelwinkelformeln}
+\section{Allgemeine trigonometrische Umformungen; Additionstheoreme und Doppelwinkelformeln}
 
 \bgroup
 \def\arraystretch{1.5}
@@ -36,9 +36,9 @@
 \end{center}
 \egroup
 
-\subsection{Komplexe Zahlen}
+\section{Komplexe Zahlen}
 
-\subsubsection{Darstellungsformen komplexer Zahlen}
+\subsection{Darstellungsformen komplexer Zahlen}
 
 \begin{center}
   \begin{tabularx}{\textwidth}{XX}
@@ -76,7 +76,7 @@
   \end{tikzpicture}
 \end{center}
 
-\subsubsection{Umrechnung verschiedener Darstellungsformen ineinander}
+\subsection{Umrechnung verschiedener Darstellungsformen ineinander}
 
 \begin{mybox}
   \(
@@ -98,7 +98,7 @@
   \end{cases}
 \end{mathframed}
 
-\subsubsection{Darstellung Sinus und Kosinus als komplexe Zahlen}
+\subsection{Darstellung Sinus und Kosinus als komplexe Zahlen}
 
 Zudem können Kosinus und Sinus auch dargestellt werden durch:
 
@@ -107,7 +107,7 @@ Zudem können Kosinus und Sinus auch dargestellt werden durch:
   \sin \varphi = \frac{e^{\im \varphi} - e^{- \im \varphi}}{2 \im}
 \end{mathframed}
 
-\subsection{Sinus Kardinalis}
+\section{Sinus Kardinalis}
 
 \begin{minipage}{.5\linewidth}
 Der Sinus Kardinals \(\operatorname{si}(x)\) ist definiert als
@@ -158,9 +158,11 @@ Der Sinus Kardinals \(\operatorname{si}(x)\) ist definiert als
   \end{center}
 \end{minipage}
 
-\section{Verallgemeinerte Funktionen}
+\part{Transformationen und Verallgemeinerte Funktionen}
 
-\subsection{Heaviside-Funktion}
+\chapter{Verallgemeinerte Funktionen}
+
+\section{Heaviside-Funktion}
 \begin{minipage}{.5\textwidth}
   Die Heaviside-Funktion oder Einheitssprungfunktion ist definiert durch:
   \[
@@ -242,7 +244,7 @@ Der Sinus Kardinals \(\operatorname{si}(x)\) ist definiert als
   \end{tikzpicture}
 \end{minipage}
 
-\subsection{Dirac-Distribution}
+\section{Dirac-Distribution}
 \begin{minipage}{.5\textwidth}
   Die Dirac-Distribution ist definiert durch:
   \[
@@ -291,7 +293,7 @@ Genauer wird die Dirac-Distribution durch eine Folge von Rechteckimpulsen hergel
   {\footnotesize \((t-2)^2+2 \cdot \delta(t-3)\)}
 \end{minipage}
 
-\subsection{Verallgemeinerte Ableitung}
+\section{Verallgemeinerte Ableitung}
 
 Leitet man die Heaviside-Funktion ab entsteht die Dirac-Distribution.
 
@@ -299,10 +301,10 @@ Leitet man die Heaviside-Funktion ab entsteht die Dirac-Distribution.
   \[
     \dot{\sigma} (t) = \delta (t)
   \]
-  \mybfred{Beim Ableiten ist insbesondere auf die innere Ableitung zu achten!}
+  \mybfcol{Beim Ableiten ist insbesondere auf die innere Ableitung zu achten!}
 \end{framed}
 
-\subsubsection{Grafisches Ableiten verallgemeinerter Funktionen}
+\subsection{Grafisches Ableiten verallgemeinerter Funktionen}
 
 \begin{minipage}{.45\textwidth}
   Wird eine Funktion mit Unstetigkeitsstellen abgeleitet, so wird an der Sprungstelle ein Dirac-Impuls in Höhe und Richtung des Sprungs eingezeichnet. Dieser Impuls ist von der \(x\)-Achse aus zu zeichnen.
@@ -347,7 +349,7 @@ Leitet man die Heaviside-Funktion ab entsteht die Dirac-Distribution.
 
 Jedoch kann die Dirac-Distribution mit unserem Wissensstand nicht weiter abgeleitet werden.
 
-\subsection{Faltung}
+\section{Faltung}
 
 "A convolution is an integral that expresses the amount of overlap of one function \(g\) as it is shifted over another function \(f\)." (\href{http://mathworld.wolfram.com/Convolution.html}{\texttt{http://mathworld.wolfram.com/Convolution.html}})
 
@@ -360,7 +362,7 @@ Die Faltung ist definiert durch:
 Dadurch entsteht eine neue Funktion \(h(t)\). \(\tau\) ist eine Dummy-Variable! Beim Integrieren verschwindet sie und bildet die Funktion wieder auf~ \(t\) ab.
 
 
-\subsection{Faltung mit \(\sigma (t)\)}
+\section{Faltung mit \(\sigma (t)\)}
 
 Wird eine Funktion mit \(\sigma (t)\) gefaltet, so ergibt sich für das Faltungsintegral:
 
@@ -368,7 +370,7 @@ Wird eine Funktion mit \(\sigma (t)\) gefaltet, so ergibt sich für das Faltungs
   (t) \star \sigma (t) = \int_{-\infty}^{\infty} f(\tau) \cdot \sigma(t - \tau) d\tau = \int_{-\infty}^t f(\tau) d\tau
 \]
 
-\subsection{Faltung mit \(\delta(t)\)}
+\section{Faltung mit \(\delta(t)\)}
 
 Wird eine Funktion \(f(t)\) mit der Dirac-Distribution \(\delta (t)\) gefaltet, so ergibt sich:
 
@@ -378,7 +380,7 @@ Wird eine Funktion \(f(t)\) mit der Dirac-Distribution \(\delta (t)\) gefaltet, 
 
 Dies haben wir den Ausblendeigenschaften der Dirac-Distribution zu verdanken.
 
-\subsection{Einseitige Faltung}
+\section{Einseitige Faltung}
 
 Sind beide Funktionen \(f(t)\)~und \(g(t) = 0\)~für \(x \leq 0\), so ergibt sich das Faltungsintegral:
 
@@ -386,7 +388,7 @@ Sind beide Funktionen \(f(t)\)~und \(g(t) = 0\)~für \(x \leq 0\), so ergibt sic
   f(t) \star g(t) = \int_0^t f(\tau) \cdot g(t - \tau) d\tau
 \]
 
-\section{Fourier-Transformation}
+\chapter{Fourier-Transformation}
 
 Mithilfe der Fouriertransformation werden Funktionen aus dem Zeitbereich in den Frequenzbereich übersetzt:
 
@@ -394,7 +396,7 @@ Mithilfe der Fouriertransformation werden Funktionen aus dem Zeitbereich in den 
   s(t)~\laplace~S(f) = \int_{-\infty}^{\infty} s(t) e^{- \im 2\pi ft} dt
 \end{mathframed}
 
-\subsection{Real- und Imaginärteil direkt berechnen}
+\section{Real- und Imaginärteil direkt berechnen}
 
 In der Regel ist das Ergebnis einer Fouriertransformation eine komplexwertige Funktion. Natürlich lässt sich diese stets in Real- und Imaginärteil aufspalten --- die Anteile lassen sich aber auch direkt berechnen:
 
@@ -405,21 +407,21 @@ In der Regel ist das Ergebnis einer Fouriertransformation eine komplexwertige Fu
 
 \clearpage
 
-\subsection{Fourier-Transformation von geraden- und ungeraden Funktionen}
+\section{Fourier-Transformation von geraden- und ungeraden Funktionen}
 
-Ist die zu transformierende Funktion \mybfred{gerade}, so ist die Transformierte \mybfred{rein reell und ebenfalls gerade}, aufgrund der Symmetrieeigenschaften des Kosinus. Zudem muss nicht mehr von \(- \infty\) bis \(\infty\) integriert werden. Es genügt das Integral von \(0\) bis \(\infty\) mit \(2\) zu multiplizieren. Ihre Berechnung reduziert sich dabei auf:
+Ist die zu transformierende Funktion \mybfcol{gerade}, so ist die Transformierte \mybfcol{rein reell und ebenfalls gerade}, aufgrund der Symmetrieeigenschaften des Kosinus. Zudem muss nicht mehr von \(- \infty\) bis \(\infty\) integriert werden. Es genügt das Integral von \(0\) bis \(\infty\) mit \(2\) zu multiplizieren. Ihre Berechnung reduziert sich dabei auf:
 
 \begin{mathframed}
   S(f) = \operatorname{Re}(f) = 2 \int_{0}^{\infty} s(t)\ \cos (2\pi f t) dt
 \end{mathframed}
 
-Das selbe Prinzip lässt sich auf die Berechnung \mybfred{ungerader} Funktionen anwenden. Hier ist die Transformierte \mybfred{rein imaginär und ungerade}:
+Das selbe Prinzip lässt sich auf die Berechnung \mybfcol{ungerader} Funktionen anwenden. Hier ist die Transformierte \mybfcol{rein imaginär und ungerade}:
 
 \begin{mathframed}
   S(f) = \im \operatorname{Im}(f) = -2\im \int_{0}^{\infty}s(t)\ \sin (2\pi f t) dt
 \end{mathframed}
 
-\subsection{Darstellung mit Amplituden- und Phasenwinkel}
+\section{Darstellung mit Amplituden- und Phasenwinkel}
 
 Fourierreihen lassen sich auch in Exponentialform darstellen:
 
@@ -429,13 +431,13 @@ Fourierreihen lassen sich auch in Exponentialform darstellen:
 
 Dabei ist
 \begin{itemize}
-\item Die Amplitude \(|S(f)| = \sqrt{\operatorname{Re}(f)^2 + \operatorname{Im}(f)^2}\) eine \mybfred{gerade, reelle} Funktion
-\item Die Phase \(\varphi(f) = \arg (S(f)) = \arg (\operatorname{Re}(f) + \im\operatorname{Im}(f))\) eine \mybfred{ungerade, reelle} Funktion.
+\item Die Amplitude \(|S(f)| = \sqrt{\operatorname{Re}(f)^2 + \operatorname{Im}(f)^2}\) eine \mybfcol{gerade, reelle} Funktion
+\item Die Phase \(\varphi(f) = \arg (S(f)) = \arg (\operatorname{Re}(f) + \im\operatorname{Im}(f))\) eine \mybfcol{ungerade, reelle} Funktion.
 \end{itemize}
 
 Diese Darstellung findet insbesondere in der Elektrotechnik ihre Anwendung (Bode-Diagramm).
 
-\subsection{Inverse Fourier-Transformation}
+\section{Inverse Fourier-Transformation}
 
 Um aus einer fouriertransormierten Funktion \(S(f)\) die Zeitfunktion \(s(t)\) zu erhalten muss \(S(f)\) \textbf{rücktransformiert} werden:
 
@@ -446,22 +448,125 @@ Um aus einer fouriertransormierten Funktion \(S(f)\) die Zeitfunktion \(s(t)\) z
 
 \clearpage
 
-\section{Laplacetransformation}
+\chapter{Laplacetransformation}
 
   Die Berechnung der Laplace-Transformation ist definiert durch:
   
 \begin{mathbox}
     f(t)~\laplace~F(s) = \int_0^{\infty}f(t) \cdot e^{-st} dt
 \end{mathbox}
-\section{z-Transformation}
+\chapter{z-Transformation}
 
-\section{Statistik}
+\part{Statistik und Wahrscheinlichkeitsrechnung}
 
-\subsection{Beschreibende Statistik}
-\subsection{Wahrscheinlichkeitsrechnung}
-\subsection{Schließende Statistik}
+\chapter{Beschreibende Statistik}
 
-\section{Tabellen}
+\chapter{Kombinatorik und Wahrscheinlichkeitsrechnung}
+
+\section{Kombinatorik}
+
+\subsection{Permutation}
+
+Permutationen werden immer dann verwendet, wenn \textbf{alle Elemente einer Menge einmal} verwendet werden sollen. Man unterscheidet zwischen Permutation mit und ohne Wiederholung.
+
+\subsubsection{Permutation ohne Wiederholung}
+
+Wenn alle Elemente in einer Menge voneinander verschieden sind und soll die Anzahl der möglichen Anordnungen aller Elemente berechnet werden, so wendet man eine \textbf{Permutation ohne Wiederholung} an. Ihre Berechnung ist definiert durch:
+
+\begin{mathbox}
+  n!
+\end{mathbox}
+
+\subsubsection{Permutation mit Wiederholung}
+
+Die Permutation mit Wiederholung wird immer dann angewandt, wenn einige Elemente in einer Menge von \(n\) Elementen gleich sind, wenn zum Beispiel Element \(n_1\ k\) mal vorhanden ist. Die Formel zur Permutation mit Wiederholung ist definiert durch:
+
+\begin{mathbox}
+  \frac{n!}{k_1! \cdot k_2! \cdot \ldots \cdots k_s!}
+\end{mathbox}
+
+Beispiel 1: Menge von 5 Elementen, von denen 3 eine selbe Eigenschaft aufweisen, 2 weisen eine andere Eigenschaft auf. Berechnung:
+
+\[\frac{5!}{3! \cdot 2!} = \frac{120}{6 \cdot 2} = \frac{120}{12} = 10\]
+
+Beispiel 2: Wenn von 5 Elementen 3 Elemente gleich sind, die anderen zwei jedoch unterschiedliche Eigenschaften aufweisen, so berechnet sich die Permutation mit Wiederholung durch:
+
+\[\frac{5!}{3! \cdot 1! \cdot 1!} \equiv \frac{5!}{3!} \frac{120}{6} = 20\]
+
+\section{Wahrscheinlichkeitsrechnung}
+
+\subsection{Wahrscheinlichkeitsverteilungen}
+
+\begin{figure}[H]
+  \subsubsection{Allgemeine Form}
+  \textbf{Dichtefunktion:}
+
+  Funktion, bei der auf der \(x\)-Achse alle Elemente mit der auf der \(y\)-Achse aufgetragenen Wahrscheinlichkeit gezeichnet sind. Es ergibt sich ein Säulendiagramm.
+
+  \textbf{Verteilungsfunktion:}
+  \[F(x) = P(X \leq x) = \sum_k^x(k \cdot P(X=k))\]
+  \textbf{Erwartungswert:}
+  \[E(X) = \mu = \sum_k k \cdot P(X=k)\]
+  \textbf{Varianz}
+  \[\operatorname{Var}(X) = \sigma^2 = \sum_k {(k^2 \cdot P(X=k) )} - \mu^2\]
+\end{figure}
+
+\begin{figure}[H]
+  \subsubsection{Hypergeometrische Verteilung}
+Beschreibung: Ziehen ohne Zurücklegen $\rightarrow$ Wahrscheinlichkeit verändert sich im Verlauf des Experiments
+
+  Es müssen folgende Variablen (bis auf \(k\)) gegeben sein:
+
+  \begin{tabular}{ll}
+    \toprule
+    \(N\) & Anzahl aller Elemente\\
+    \(M\) & Anzahl Elemente mit bestimmter Eigenschaft\\
+    \(n\) & Anzahl Elemente in der Stichprobe\\
+    \(k\) & Anzahl Elemente aus der Stichprobe, die das Merkmal aufweisen sollen\\
+    \bottomrule
+  \end{tabular}
+
+  \textbf{Dichtefunktion:}
+  \begin{align*}
+    X &\sim H(k, n, N, M)\\[1em]
+    P(X = k) &= \frac{\binom{M}{k}\binom{N-M}{n-k}}{\binom{N}{n}}
+  \end{align*}
+  \textbf{Verteilungsfunktion:}
+  \[F(x) = P(X \leq x) = \sum_{k=0}^x\operatorname{H}(k,n,N,M)\]
+  \textbf{Erwartungswert:}
+  \[E(X) = \mu = n \cdot \frac{M}{N}\]
+  \textbf{Varianz:}
+  \[\operatorname{Var}(X) = \sigma^2 = n \cdot \frac{M}{N} \left(1 - \frac{M}{N}\right) \frac{N - n}{N - 1}\]
+\end{figure}
+
+\begin{figure}[H]
+  \subsubsection{Binomialverteilung}
+Beschreibung: Ziehen \textbf{mit} zurücklegen $\rightarrow$ Wahrscheinlichkeit bleibt während dem Experiment gleich
+
+  Es müssen folgende Variablen gegeben sein:
+
+  \begin{tabularx}{\textwidth}{lX}
+    \toprule
+    \(p\) & Anteil der Elemente/ Wahrscheinlichkeit beim Ziehen \textbf{eines} Elementes aus der Grundgesamtheit\\
+    \(n\) & Anzahl Elemente in der Stichprobe\\
+    \(k\) & Anzahl Elemente aus der Stichprobe, die das Merkmal aufweisen sollen\\
+    \bottomrule
+  \end{tabularx}
+
+  \textbf{Dichtefunktion:}
+  \begin{align*}
+    X &\sim \operatorname{B}(k,n,p)\\[1em]
+    P(X = k) &= \binom{n}{k}p^k{(1 - p)}^{n-k}
+  \end{align*}
+  \textbf{Verteilungsfunktion:}
+  Hier müssen die einzelnen Dichtefunktionen berechnet werden
+  \[F(x) = P(X \leq x) = \sum_{k=0}^x\operatorname{B}(k,n,p)\]
+  \textbf{Erwartungswert:}
+  \[E(X) = \mu = n \cdot p\]
+  \textbf{Varianz:}
+  \[\operatorname{Var}(X) = \sigma^2 = n \cdot p \cdot (1 - p)\]
+\end{figure}
+\clearpage
 
 \includepdf[pages=-]{Cheatsheet.pdf}
 

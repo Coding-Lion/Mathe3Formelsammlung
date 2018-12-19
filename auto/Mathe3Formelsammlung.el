@@ -4,12 +4,12 @@
    (setq TeX-command-extra-options
          "--shell-escape")
    (TeX-add-to-alist 'LaTeX-provided-class-options
-                     '(("scrartcl" "12pt" "a4paper")))
+                     '(("scrreprt" "12pt" "a4paper")))
    (TeX-run-style-hooks
     "latex2e"
     "Title"
-    "scrartcl"
-    "scrartcl12"
+    "scrreprt"
+    "scrreprt12"
     "mystyle"
     "pgfplots"
     "amssymb"
