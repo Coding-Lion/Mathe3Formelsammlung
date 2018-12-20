@@ -1,6 +1,7 @@
 \documentclass[12pt, a4paper]{scrreprt}
 
-\usepackage{mystyle, pgfplots, amssymb, todonotes, pdfpages}
+\usepackage[tight]{shorttoc}
+\usepackage{pgfplots, amssymb, todonotes, pdfpages, mystyle}
 \usetikzlibrary{angles, arrows}
 \pgfplotsset{
   width=7cm,
@@ -13,6 +14,7 @@
 \begin{document}
 
 \include{Title}
+\shorttoc{Kurzes Inhaltsverzeichnis}{1}
 \tableofcontents
 \clearpage
 
@@ -351,7 +353,7 @@ Jedoch kann die Dirac-Distribution mit unserem Wissensstand nicht weiter abgelei
 
 \section{Faltung}
 
-"A convolution is an integral that expresses the amount of overlap of one function \(g\) as it is shifted over another function \(f\)." (\href{http://mathworld.wolfram.com/Convolution.html}{\texttt{http://mathworld.wolfram.com/Convolution.html}})
+\glqq{}A convolution is an integral that expresses the amount of overlap of one function \(g\) as it is shifted over another function \(f\).\grqq{} (\href{http://mathworld.wolfram.com/Convolution.html}{\texttt{http://mathworld.wolfram.com/Convolution.html}})
 
 Die Faltung ist definiert durch:
 
@@ -467,31 +469,22 @@ Um aus einer fouriertransormierten Funktion \(S(f)\) die Zeitfunktion \(s(t)\) z
 
 \subsection{Permutation}
 
-Permutationen werden immer dann verwendet, wenn \textbf{alle Elemente einer Menge einmal} verwendet werden sollen. Man unterscheidet zwischen Permutation mit und ohne Wiederholung.
+\begin{tabular}{lc}
+  \toprule
+  Permutation ohne Wiederholung: & \(n!\)\\
+  \midrule
+  Permutation mit Wiederholung: & \(\displaystyle{\frac{n!}{k_1! \cdot k_2! \cdot \ldots \cdot k_s!}}\)\\
+  \bottomrule
+\end{tabular}
 
-\subsubsection{Permutation ohne Wiederholung}
+\section{Kombination und Variation}
 
-Wenn alle Elemente in einer Menge voneinander verschieden sind und soll die Anzahl der möglichen Anordnungen aller Elemente berechnet werden, so wendet man eine \textbf{Permutation ohne Wiederholung} an. Ihre Berechnung ist definiert durch:
+Kombinationen werden verwendet, wenn \textbf{nur einige} der Elemente in einer Menge angeordnet werden sollen. Permutationen hingegen ordnen \textbf{alle} Elemente an.
 
-\begin{mathbox}
-  n!
-\end{mathbox}
-
-\subsubsection{Permutation mit Wiederholung}
-
-Die Permutation mit Wiederholung wird immer dann angewandt, wenn einige Elemente in einer Menge von \(n\) Elementen gleich sind, wenn zum Beispiel Element \(n_1\ k\) mal vorhanden ist. Die Formel zur Permutation mit Wiederholung ist definiert durch:
-
-\begin{mathbox}
-  \frac{n!}{k_1! \cdot k_2! \cdot \ldots \cdots k_s!}
-\end{mathbox}
-
-Beispiel 1: Menge von 5 Elementen, von denen 3 eine selbe Eigenschaft aufweisen, 2 weisen eine andere Eigenschaft auf. Berechnung:
-
-\[\frac{5!}{3! \cdot 2!} = \frac{120}{6 \cdot 2} = \frac{120}{12} = 10\]
-
-Beispiel 2: Wenn von 5 Elementen 3 Elemente gleich sind, die anderen zwei jedoch unterschiedliche Eigenschaften aufweisen, so berechnet sich die Permutation mit Wiederholung durch:
-
-\[\frac{5!}{3! \cdot 1! \cdot 1!} \equiv \frac{5!}{3!} \frac{120}{6} = 20\]
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Grafiken/Kombinatorik}
+\end{figure}
 
 \section{Wahrscheinlichkeitsrechnung}
 
@@ -565,9 +558,41 @@ Beschreibung: Ziehen \textbf{mit} zurücklegen $\rightarrow$ Wahrscheinlichkeit 
   \[E(X) = \mu = n \cdot p\]
   \textbf{Varianz:}
   \[\operatorname{Var}(X) = \sigma^2 = n \cdot p \cdot (1 - p)\]
+  \textbf{Annäherung der Hypergeometrischen Verteilung durch Binomialverteilung:}\\
+  Falls \(\frac{n}{N} \leq 0.1\) kann der Parameter \(p\) durch \(p = \frac{M}{N}\) angenähert werden.
 \end{figure}
-\clearpage
 
+\begin{figure}[H]
+  \subsubsection{Poissonverteilung}
+  Beschreibung: Gegeben ist ein Durchschnittswerts (\textit{Erwartungswert}) \(\lambda\) pro einer gewissen Einheit (z.B. im Durchschnitt 3 Anrufe in 5 Minuten). Die Poissonverteilung soll berechnen, wie groß die Wahrscheinlichkeit ist einen anderen Wert \(k\) als Ergebnis zu erhalten.\\
+  \textbf{Dichtefunktion:}
+  \begin{align*}
+    X & \sim \operatorname{Po}(k, \lambda)\\[1em]
+    P(X = k) & = \frac{\lambda^k}{k!}e^{-\lambda}
+  \end{align*}
+  \textbf{Verteilungsfunktion:}
+  \[F(x) = P(X \leq x) = \sum_{k=0}^x\operatorname{Po}(k,\lambda)\]
+  \textbf{Erwartungswert:}
+  \[E(X) = \mu = \lambda\]
+  \textbf{Varianz:}
+  \[\operatorname{Var}(X) = \sigma^2 = \lambda\]
+  \textbf{Annäherung der Binomialverteilung durch Poissonverteilung:}\\
+  Wenn \(n\) groß und \(p\) klein ist (\(n \geq 30, p \leq 0.1\)) kann der Parameter \(\lambda\) durch \(\lambda = n \cdot p\) angenähert werden.
+\end{figure}
+
+\begin{figure}[H]
+  \subsection{Geometrische Verteilung}
+\end{figure}
+
+\begin{figure}[H]
+  \subsection{Exponentialverteilung}
+\end{figure}
+
+
+\clearpage
+\phantomsection%
+\addtocounter{chapter}{1}
+\addchaptertocentry{\arabic{chapter}}{Tabellen aus Buch von Prof.\ Koch und Prof.\ Stämpfle}
 \includepdf[pages=-]{Cheatsheet.pdf}
 
 \end{document}

@@ -1,74 +1,80 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Grundlagen und Wiederholung}{4}{chapter.1}
+\contentsline {chapter}{\numberline {1}Grundlagen und Wiederholung}{6}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Allgemeine trigonometrische Umformungen; Additionstheoreme und Doppelwinkelformeln}{4}{section.1.1}
+\contentsline {section}{\numberline {1.1}Allgemeine trigonometrische Umformungen; Additionstheoreme und Doppelwinkelformeln}{6}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Komplexe Zahlen}{4}{section.1.2}
+\contentsline {section}{\numberline {1.2}Komplexe Zahlen}{6}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Darstellungsformen komplexer Zahlen}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Darstellungsformen komplexer Zahlen}{6}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Umrechnung verschiedener Darstellungsformen ineinander}{5}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Umrechnung verschiedener Darstellungsformen ineinander}{7}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Darstellung Sinus und Kosinus als komplexe Zahlen}{6}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.3}Darstellung Sinus und Kosinus als komplexe Zahlen}{8}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Sinus Kardinalis}{6}{section.1.3}
+\contentsline {section}{\numberline {1.3}Sinus Kardinalis}{8}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {I}Transformationen und Verallgemeinerte Funktionen}{7}{part.1}
+\contentsline {part}{\numberline {I}Transformationen und Verallgemeinerte Funktionen}{9}{part.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Verallgemeinerte Funktionen}{8}{chapter.2}
+\contentsline {chapter}{\numberline {2}Verallgemeinerte Funktionen}{10}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Heaviside-Funktion}{8}{section.2.1}
+\contentsline {section}{\numberline {2.1}Heaviside-Funktion}{10}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Dirac-Distribution}{9}{section.2.2}
+\contentsline {section}{\numberline {2.2}Dirac-Distribution}{11}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Verallgemeinerte Ableitung}{9}{section.2.3}
+\contentsline {section}{\numberline {2.3}Verallgemeinerte Ableitung}{11}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Grafisches Ableiten verallgemeinerter Funktionen}{10}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Grafisches Ableiten verallgemeinerter Funktionen}{12}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Faltung}{10}{section.2.4}
+\contentsline {section}{\numberline {2.4}Faltung}{12}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Faltung mit \(\sigma (t)\)}{10}{section.2.5}
+\contentsline {section}{\numberline {2.5}Faltung mit \(\sigma (t)\)}{12}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Faltung mit \(\delta (t)\)}{11}{section.2.6}
+\contentsline {section}{\numberline {2.6}Faltung mit \(\delta (t)\)}{13}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Einseitige Faltung}{11}{section.2.7}
+\contentsline {section}{\numberline {2.7}Einseitige Faltung}{13}{section.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Fourier-Transformation}{12}{chapter.3}
+\contentsline {chapter}{\numberline {3}Fourier-Transformation}{14}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Real- und Imaginärteil direkt berechnen}{12}{section.3.1}
+\contentsline {section}{\numberline {3.1}Real- und Imaginärteil direkt berechnen}{14}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Fourier-Transformation von geraden- und ungeraden Funktionen}{13}{section.3.2}
+\contentsline {section}{\numberline {3.2}Fourier-Transformation von geraden- und ungeraden Funktionen}{15}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Darstellung mit Amplituden- und Phasenwinkel}{13}{section.3.3}
+\contentsline {section}{\numberline {3.3}Darstellung mit Amplituden- und Phasenwinkel}{15}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Inverse Fourier-Transformation}{14}{section.3.4}
+\contentsline {section}{\numberline {3.4}Inverse Fourier-Transformation}{16}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Laplacetransformation}{15}{chapter.4}
+\contentsline {chapter}{\numberline {4}Laplacetransformation}{17}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}z-Transformation}{16}{chapter.5}
+\contentsline {chapter}{\numberline {5}z-Transformation}{18}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {II}Statistik und Wahrscheinlichkeitsrechnung}{17}{part.2}
+\contentsline {part}{\numberline {II}Statistik und Wahrscheinlichkeitsrechnung}{19}{part.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Beschreibende Statistik}{18}{chapter.6}
+\contentsline {chapter}{\numberline {6}Beschreibende Statistik}{20}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Kombinatorik und Wahrscheinlichkeitsrechnung}{19}{chapter.7}
+\contentsline {chapter}{\numberline {7}Kombinatorik und Wahrscheinlichkeitsrechnung}{21}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Kombinatorik}{19}{section.7.1}
+\contentsline {section}{\numberline {7.1}Kombinatorik}{21}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}Permutation}{19}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.1}Permutation}{21}{subsection.7.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Permutation ohne Wiederholung}{19}{section*.2}
+\contentsline {section}{\numberline {7.2}Kombination und Variation}{21}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Permutation mit Wiederholung}{19}{section*.3}
+\contentsline {section}{\numberline {7.3}Wahrscheinlichkeitsrechnung}{23}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Wahrscheinlichkeitsrechnung}{20}{section.7.2}
+\contentsline {subsection}{\numberline {7.3.1}Wahrscheinlichkeitsverteilungen}{23}{subsection.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Wahrscheinlichkeitsverteilungen}{20}{subsection.7.2.1}
+\contentsline {subsubsection}{\nonumberline Allgemeine Form}{23}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Allgemeine Form}{20}{section*.4}
+\contentsline {subsubsection}{\nonumberline Hypergeometrische Verteilung}{24}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Hypergeometrische Verteilung}{21}{section*.5}
+\contentsline {subsubsection}{\nonumberline Binomialverteilung}{25}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Binomialverteilung}{22}{section*.6}
+\contentsline {subsubsection}{\nonumberline Poissonverteilung}{26}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.2}Geometrische Verteilung}{26}{subsection.7.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.3}Exponentialverteilung}{26}{subsection.7.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Tabellen aus Buch von Prof.\ Koch und Prof.\ Stämpfle}{27}{section*.7}
