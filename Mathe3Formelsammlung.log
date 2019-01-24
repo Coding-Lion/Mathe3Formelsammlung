@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.24)  24 JAN 2019 18:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.24)  24 JAN 2019 18:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -474,7 +474,11 @@ File: babel.def 2018/11/13 3.27 Babel common definitions
 \bbl@dirlevel=\count128
 )
 Package babel Info: Making " an active character on input line 121.
-))) (c:/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
+))) (c:/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks37
+\inpenc@posthook=\toks38
+) (c:/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
  (c:/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
@@ -487,7 +491,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01 AMS text
  (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks37
+\@emptytoks=\toks39
 \ex@=\dimen178
 )) (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -515,21 +519,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \dotsspace@=\muskip10
 \c@parentequation=\count136
 \dspbrk@lvl=\count137
-\tag@help=\toks38
+\tag@help=\toks40
 \row@=\count138
 \column@=\count139
 \maxfields@=\count140
-\andhelp@=\toks39
+\andhelp@=\toks41
 \eqnshift@=\dimen181
 \alignsep@=\dimen182
 \tagshift@=\dimen183
 \tagwidth@=\dimen184
 \totwidth@=\dimen185
 \lineht@=\dimen186
-\@envbody=\toks40
+\@envbody=\toks42
 \multlinegap=\skip62
 \multlinetaggap=\skip63
-\mathdisplay@stack=\toks41
+\mathdisplay@stack=\toks43
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
@@ -575,14 +579,14 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 ) (c:/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count146
-\float@exts=\toks42
+\float@exts=\toks44
 \float@box=\box47
-\@float@everytoks=\toks43
+\@float@everytoks=\toks45
 \@floatcapt=\box48
 ) (c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count147
 \lst@gtempboxa=\box49
-\lst@token=\toks44
+\lst@token=\toks46
 \lst@length=\count148
 \lst@currlwidth=\dimen263
 \lst@column=\count149
@@ -610,7 +614,7 @@ File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 ) (c:/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
-\@float@every@lstfloat=\toks45
+\@float@every@lstfloat=\toks47
 \c@lstfloat=\count155
  (c:/texlive/2018/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2018/11/12 v2.02b (include SVG pictures)
@@ -662,7 +666,7 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen280
 \ar@mcellbox=\box52
 \extrarowheight=\dimen281
-\NC@list=\toks46
+\NC@list=\toks48
 \extratabsurround=\skip66
 \backup@length=\skip67
 \ar@cellbox=\box53
@@ -673,18 +677,18 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \TX@target=\dimen285
 \TX@delta=\dimen286
 \TX@cols=\count162
-\TX@ftn=\toks47
+\TX@ftn=\toks49
 ) (c:/texlive/2018/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen287
 \c@nlinenum=\count163
-\TeXr@lab=\toks48
+\TeXr@lab=\toks50
 ) (c:/texlive/2018/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2018/12/07 version 4.15 text color boxes
  (c:/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks49
-\verbatim@line=\toks50
+\every@verbatim=\toks51
+\verbatim@line=\toks52
 \verbatim@in@stream=\read2
 ) (c:/texlive/2018/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
@@ -925,11 +929,11 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
  (c:/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-Package biblatex Info: Redefining '\cite' on input line 193.
-Package biblatex Info: Redefining '\parencite' on input line 207.
-Package biblatex Info: Redefining '\footcite' on input line 221.
-Package biblatex Info: Redefining '\footcitetext' on input line 228.
-Package biblatex Info: Redefining '\textcite' on input line 235.
+Package biblatex Info: Redefining '\cite' on input line 195.
+Package biblatex Info: Redefining '\parencite' on input line 209.
+Package biblatex Info: Redefining '\footcite' on input line 223.
+Package biblatex Info: Redefining '\footcitetext' on input line 230.
+Package biblatex Info: Redefining '\textcite' on input line 237.
  (c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
  (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -1010,7 +1014,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip90
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 262.
+Package hyperref Info: Option `colorlinks' set `true' on input line 264.
 ) (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryangles.code.tex
 File: tikzlibraryangles.code.tex 2019/01/05 v3.1 (3.1)
 ) (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
@@ -1063,12 +1067,12 @@ LaTeX Font Info:    ... okay on input line 17.
 \scratchbox=\box63
 \nofMPsegments=\count369
 \nofMParguments=\count370
-\everyMPshowfont=\toks51
+\everyMPshowfont=\toks53
 \MPscratchCnt=\count371
 \MPscratchDim=\dimen294
 \MPnumerator=\count372
 \makeMPintoPDFobject=\count373
-\everyMPtoPDFconversion=\toks52
+\everyMPtoPDFconversion=\toks54
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1589,15 +1593,15 @@ Package logreq Info: Writing requests to 'Mathe3Formelsammlung.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43982 strings out of 493868
- 998515 string characters out of 6157622
- 1710056 words of memory out of 5000000
- 46909 multiletter control sequences out of 15000+600000
+ 44000 strings out of 493868
+ 998870 string characters out of 6157622
+ 1710546 words of memory out of 5000000
+ 46924 multiletter control sequences out of 15000+600000
  16339 words of font info for 62 fonts, out of 8000000 for 9000
  374 hyphenation exceptions out of 8191
  73i,19n,127p,9151b,2279s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ./Mathe3Formelsammlung.pdf (37 pages, 1306585 bytes).
+Output written on ./Mathe3Formelsammlung.pdf (37 pages, 1306425 bytes).
 PDF statistics:
  698 PDF objects out of 1000 (max. 8388607)
  571 compressed objects within 6 object streams
