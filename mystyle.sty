@@ -1,0 +1,44 @@
+\ProvidesPackage{mystyle}
+
+\usepackage[margin=2.5cm]{geometry} % Sets Left and right Margins to be 2.5cm 
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage{empheq}
+\usepackage{gensymb}
+\usepackage{framed}
+\usepackage{float}
+
+\usepackage{xcolor}
+\colorlet{myred}{red!70!black}                              % Definiere eigene Farbe
+\newcommand{\mybfred}[1]{\textbf{\textcolor{myred}{#1}}}    % Mein erster, komplett eigener Latex-Macro!!!
+
+\usepackage{svg}
+\usepackage[colorlinks=true, linkcolor=black, linktoc=all]{hyperref}
+\usepackage{makecell}                                       % To keep spacing of text in tables
+\setcellgapes{4pt}                                          % Parameter for the spacing
+
+\renewcommand{\familydefault}{\sfdefault}                   % Schreibe das gesamte Dokument in serifenloser Schrift (außer Math-Modes)
+
+
+\everymath{\displaystyle}                                   % Macht alles Mathezeugs ein bisschen größer und besser lesbar
+
+\makeatletter                                               % Macht Mathe-Zeichen in Überschriften dicker
+\g@addto@macro\bfseries{\boldmath}
+\makeatother
+
+\setlength\extrarowheight{5pt}                              % Macht Tabellenzeilen etwas höher
+
+\renewcommand*\sectfont{\color{myred}\sffamily\bfseries}    % Macht Überschriften rot
+\addtokomafont{paragraph}{\normalcolor\normalfont}          % Verhindert, dass Paragraph-Headings als Überschriften dargestellt werden
+\setkomafont{caption}{\footnotesize}                        % Macht alle Bild- oder Tabellen-Unterschriften klein
+\setkomafont{captionlabel}{\usekomafont{caption}} 
+
+\newcommand{\myhspace}{\-\hspace{1.5cm}}                    % Eigener LaTeX-Macro: Rückt Zeilen um 1.5 cm ein
+\newcommand{\mytextred}[1]{\textcolor{myred}{#1}}           % Eigener LaTeX-Macro: Druckt Wörter in rot
+\renewcommand{\textbf}[1]{{\bfseries\textcolor{myred}{#1}}} % Achtung: textbf wird überschrieben! Alles in textbf wird zusätzlich rot
+
+\setlength{\parindent}{0pt}                                 % Neue Paragraphen beginnen nicht eingerückt
+\setlength{\parskip}{1em}                                   % Jeder neue Paragraph wird mit einer Zeile Abstand formatiert
+
+\setcounter{tocdepth}{6}                                    % Alles, auch Paragraphen mit Überschrift kommen ins Inhaltsverzeichnis
