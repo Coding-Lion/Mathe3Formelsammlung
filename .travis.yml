@@ -1,11 +1,14 @@
 sudo: required
 language: generic
 services: docker
-
 script:
-  # We use the docker image from https://hub.docker.com/r/dxjoke/tectonic-docker/
-  - docker pull dxjoke/tectonic-docker
-  # Compiling only main.tex:
-  - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic Mathe3Formelsammlung.tex"
-  # Compiling multiple files as well as using biber:
-#  - docker run --mount src=$TRAVIS_BUILD_DIR/src,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic --keep-intermediates --reruns 0 biber-mwe.tex; biber biber-mwe; tectonic biber-mwe.tex; tectonic main.tex"
+- docker pull dxjoke/tectonic-docker
+- docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker
+  /bin/sh -c "tectonic Mathe3Formelsammlung.tex"
+deploy:
+  provider: releases
+  api_key:
+    secure: XQiCFHTdJVbnwmHzwcnZy87Slg8ZuIUc16fvDSGXacG85Xtt8TYqiIGPL7PortPdsLdnq+htWy7xbu/EfQL4VSCqwN/9J6+T/tkwXC1watCx9/kS1MSsNirLWqwXhlrJiLlLd3QRahENyRo0wD5yUF5RqZ/8HGT+s81lVqPi6xSo2HE8/dbG9EusadADwcQ3PE0cy6F+/TH/8H3vtJaoxcFB1pxwjEdkr2KhB/6P4V52R1VeV7uVegGm4MqbDzHW5P3Hga9NxoWIRJszTUhusiDi/G2TBy4AunuIM6ng+WBEYUqVqLb9KWUb60Bo1Vs5ZEtJpOR0mfqsq/e+GJPFopzccR0RvnaqRfAHId7Br4akeY07kG1ZiiCeKAlkFCvx4y4QZ6pR0A69vERha7FoTSPoqSOb5XcpLxFqnelu6d3hwtja0HDRIIzM4JRj4iYVBdFhxXM4rAhyntYdXbWjWfJN93K9DCbiNYxM1GHYOvG5YQeCCDzFrhT+qpEArhJoOj6lxeuO2dMNqkTFiRM1yZX4PbM/Y9liCVeP7PDu6VbOUPamr9Jz99zistrtnCOpj20DS66ysc3wkK6TNVNaPnBqlY9/0rpDC1OVc/knN1nonFAYuux6Wn47eSEyfUVs4ME4+iOLRJTiCwnkCgep9KEVIT3WNv70c/RrUoiFN8k=
+  file: Mathe3Formelsammlung.pdf
+  on:
+    repo: Coding-Lion/Mathe3Formelsammlung
