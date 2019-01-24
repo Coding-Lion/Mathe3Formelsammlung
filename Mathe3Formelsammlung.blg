@@ -1,5 +1,5 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
-[2] Config.pm:307> INFO - Logfile is 'Mathe3Formelsammlung.blg'
-[97] biber-MSWIN32:315> INFO - === 
-[164] Biber.pm:371> INFO - Reading 'Mathe3Formelsammlung.bcf'
-[440] Utils.pm:193> WARN - No data sources defined!
+[0] Config.pm:307> INFO - Logfile is 'Mathe3Formelsammlung.blg'
+[94] biber-MSWIN32:315> INFO - === 
+[188] Biber.pm:371> INFO - Reading 'Mathe3Formelsammlung.bcf'
+[323] Utils.pm:193> WARN - No data sources defined!
