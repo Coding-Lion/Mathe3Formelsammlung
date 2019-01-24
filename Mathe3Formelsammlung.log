@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.24)  24 JAN 2019 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.24)  24 JAN 2019 18:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1039,25 +1039,23 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count366
 \@quotereset=\count367
-(./Mathe3Formelsammlung.aux
-No file Title.aux.
-)
+(./Mathe3Formelsammlung.aux (./Title.aux))
 \openout1 = `Mathe3Formelsammlung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count368
@@ -1086,7 +1084,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
 
-Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 19.
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 17.
 
 \AtBeginShipoutBox=\box64
 (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -1130,13 +1128,13 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 19.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 19.
+LaTeX Info: Redefining \celsius on input line 17.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 17.
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 19.
-Package gensymb Info: Using \Omega for \ohm on input line 19.
+LaTeX Info: Redefining \ohm on input line 17.
+Package gensymb Info: Using \Omega for \ohm on input line 17.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1147,21 +1145,21 @@ Package biblatex Info: Automatic encoding selection.
 \openout6 = `Mathe3Formelsammlung.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Mathe3Formelsammlung.bbl' not found.
-No file Mathe3Formelsammlung.bbl.
-Package biblatex Info: Reference section=0 on input line 19.
-Package biblatex Info: Reference segment=0 on input line 19.
-Package hyperref Info: Link coloring ON on input line 19.
-(c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package biblatex Info: ... file 'Mathe3Formelsammlung.bbl' found.
+(./Mathe3Formelsammlung.bbl)
+Package biblatex Info: Reference section=0 on input line 17.
+Package biblatex Info: Reference segment=0 on input line 17.
+Package hyperref Info: Link coloring ON on input line 17.
+ (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count375
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
  (./Mathe3Formelsammlung.out) (./Mathe3Formelsammlung.out)
 \@outlinefile=\write7
 \openout7 = `Mathe3Formelsammlung.out'.
@@ -1172,7 +1170,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message with `\usepackage{bookmark}'
-(scrreprt)           before \begin{document} on input line 19.
+(scrreprt)           before \begin{document} on input line 17.
  (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
  (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
@@ -1230,24 +1228,24 @@ Package pdftex.def Info: ./svg-inkscape/LogoHS_Esslingen_svg-tex.pdf , page1 use
 
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./svg-inkscape/LogoHS_Esslingen_svg-tex.pdf>]) (./Mathe3Formelsammlung.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) [2
+) [2
 
 
 
-] (./Mathe3Formelsammlung.toc)
+]) [3] (./Mathe3Formelsammlung.toc [4
+
+])
 \tf@toc=\write8
 \openout8 = `Mathe3Formelsammlung.toc'.
 
- [3
-
-] [4]
+ [5]
 chapter 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -1266,625 +1264,343 @@ Class scrreprt Warning: \float@addtolists detected!
 
 
 Package tabularx Warning: X Columns too narrow (table too wide)
-(tabularx)                 on input line 43.
+(tabularx)                 on input line 40.
 
 
-Overfull \hbox (17.69916pt too wide) in alignment at lines 43--43
+Overfull \hbox (17.69916pt too wide) in alignment at lines 40--40
 [][][] 
  []
 
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:58: Undefined control sequence.
-<inserted text> ...tesische Form: & \(z = x + \im 
-                                                  y\)\\ Polarform; Polarkoor...
-l.58   \end{tabularx}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:58: Undefined control sequence.
-<inserted text> ...: & \(z = r \cos \varphi + \im 
-                                                  r \sin \varphi \)\\ Expone...
-l.58   \end{tabularx}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:58: Undefined control sequence.
-<inserted text> ... Exponentialform: & \(r e^{\im 
-                                                  \varphi }\)\\ \bottomrule 
-l.58   \end{tabularx}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:58: Undefined control sequence.
-<inserted text> ...tesische Form: & \(z = x + \im 
-                                                  y\)\\ Polarform; Polarkoor...
-l.58   \end{tabularx}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:58: Undefined control sequence.
-<inserted text> ...: & \(z = r \cos \varphi + \im 
-                                                  r \sin \varphi \)\\ Expone...
-l.58   \end{tabularx}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:58: Undefined control sequence.
-<inserted text> ... Exponentialform: & \(r e^{\im 
-                                                  \varphi }\)\\ \bottomrule 
-l.58   \end{tabularx}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:58: Undefined control sequence.
-<inserted text> ...tesische Form: & \(z = x + \im 
-                                                  y\)\\ Polarform; Polarkoor...
-l.58   \end{tabularx}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:58: Undefined control sequence.
-<inserted text> ...: & \(z = r \cos \varphi + \im 
-                                                  r \sin \varphi \)\\ Expone...
-l.58   \end{tabularx}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:58: Undefined control sequence.
-<inserted text> ... Exponentialform: & \(r e^{\im 
-                                                  \varphi }\)\\ \bottomrule 
-l.58   \end{tabularx}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[5
+[6
 
 
-]
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:96: Undefined control sequence.
-<argument> ...{aligned} z &= r \cos \varphi + \im 
-                                                  r \sin \varphi = r e^{\im ...
-l.96 \end{mybox}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:96: Undefined control sequence.
-<argument> ...phi + \im r \sin \varphi = r e^{\im 
-                                                  \varphi }\\ r &= |z| = \sq...
-l.96 \end{mybox}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im 
-                  \varphi } + e^{- \im \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im \varphi } + e^{- \im 
-                                       \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im 
-                  \varphi } - e^{- \im \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im \varphi } - e^{- \im 
-                                       \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> 2 \im 
-                 
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im 
-                  \varphi } + e^{- \im \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im \varphi } + e^{- \im 
-                                       \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im 
-                  \varphi } - e^{- \im \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im \varphi } - e^{- \im 
-                                       \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> 2 \im 
-                 
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im 
-                  \varphi } + e^{- \im \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im \varphi } + e^{- \im 
-                                       \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im 
-                  \varphi } - e^{- \im \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im \varphi } - e^{- \im 
-                                       \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> 2 \im 
-                 
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im 
-                  \varphi } + e^{- \im \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im \varphi } + e^{- \im 
-                                       \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im 
-                  \varphi } - e^{- \im \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> e^{\im \varphi } - e^{- \im 
-                                       \varphi }
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:116: Undefined control sequence.
-<argument> 2 \im 
-                 
-l.116 \end{mathframed}
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[6] [7]
+] [7] [8]
 part I.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 168.
-[8
-
-]
-chapter 2.
-c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:176: Undefined control sequence.
-<argument> ...@upper \ignorespaces  f(t)~\laplace 
-                                                  ~F(s) = \int _0^{\infty }f...
-l.176 \end{mathbox}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+(scrkbase)              on input line 166.
 [9
 
 ]
-chapter 3.
+chapter 2.
+
+Underfull \hbox (badness 2495) in paragraph at lines 197--198
+[]\OT1/cmr/m/n/12 Wird ei-ne Funk-ti-on mit der Heaviside-
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 210--211
+[]\OT1/cmr/m/n/12 Mithilfe der Heaviside-Funktion k[]onnen
+ []
+
 [10
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+[]\OT1/cmr/m/n/12 Wird ei-ne Funk-ti-on mit der Dirac-
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 282--283
+\OT1/cmr/bx/n/12 den Funk-ti-ons-wert an der Stel-le $\OML/cmm/b/it/12 t$
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 1052) in paragraph at lines 315--316
+\OT1/cmr/m/n/12 stel-le ein Dirac-Impuls in H[]ohe und
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 315--316
+\OT1/cmr/m/n/12 Rich-tung des Sprungs ein-ge-zeich-net.
+ []
+
+
+Overfull \hbox (14.58188pt too wide) in paragraph at lines 352--353
+[][] 
+ []
+
+[11]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 370.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\sigma' on input line 370.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 378.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delta' on input line 378.
+
+[12] [13]
+chapter 3.
+[14
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 439.
+ (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 439.
+
+Overfull \hbox (26.91064pt too wide) in paragraph at lines 443--444
+[]\OT1/cmr/m/n/12 Diese Dar-stel-lung fin-det ins-be-son-de-re in der Elek-tro-tech-nik ih-re An-wen-dung (Bode-Diagramm). 
+ []
+
+[15
+
+] [16]
+chapter 4.
+[17
+
+
+]
+chapter 5.
+[18
 
 ]
 part II.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 179.
-[11
+(scrkbase)              on input line 465.
+[19
 
 ]
-chapter 4.
-[12
+chapter 6.
+[20
 
 ]
-chapter 5.
-<Grafiken/Kombinatorik.png, id=200, 767.11594pt x 551.05875pt>
+chapter 7.
+<Grafiken/Kombinatorik.png, id=310, 767.11594pt x 551.05875pt>
 File: Grafiken/Kombinatorik.png Graphic file (type png)
 <use Grafiken/Kombinatorik.png>
-Package pdftex.def Info: Grafiken/Kombinatorik.png  used on input line 203.
+Package pdftex.def Info: Grafiken/Kombinatorik.png  used on input line 489.
 (pdftex.def)             Requested size: 455.24411pt x 327.03056pt.
-[13
+[21
 
-] [14 <./Grafiken/Kombinatorik.png (PNG copy)>] [15] [16] [17]
-<Cheatsheet.pdf, id=224, 597.50829pt x 845.0471pt>
+] [22 <./Grafiken/Kombinatorik.png (PNG copy)>] [23] [24] [25]
+<Cheatsheet.pdf, id=333, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf>
-Package pdftex.def Info: Cheatsheet.pdf  used on input line 313.
+Package pdftex.def Info: Cheatsheet.pdf  used on input line 599.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf>
-Package pdftex.def Info: Cheatsheet.pdf  used on input line 313.
+Package pdftex.def Info: Cheatsheet.pdf  used on input line 599.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<Cheatsheet.pdf, id=227, page=1, 597.50829pt x 845.0471pt>
+<Cheatsheet.pdf, id=336, page=1, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 1>
-Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 313.
+Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 599.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 1>
-Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 313.
+Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 599.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 1>
-Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 313.
+Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 599.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 1>
-Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 313.
+Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 599.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 1>
-Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 313.
+Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 599.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [18
+ [26
 
  <./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=284, page=2, 597.50829pt x 845.0471pt>
+<Cheatsheet.pdf, id=394, page=2, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 2>
-Package pdftex.def Info: Cheatsheet.pdf , page2 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 2>
-Package pdftex.def Info: Cheatsheet.pdf , page2 used on input line 313.
+Package pdftex.def Info: Cheatsheet.pdf , page2 used on input line 599.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 2>
-Package pdftex.def Info: Cheatsheet.pdf , page2 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [19 <./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=297, page=3, 597.50829pt x 845.0471pt>
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 3>
-Package pdftex.def Info: Cheatsheet.pdf , page3 used on input line 313.
+Package pdftex.def Info: Cheatsheet.pdf , page2 used on input line 599.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 3>
-Package pdftex.def Info: Cheatsheet.pdf , page3 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 3>
-Package pdftex.def Info: Cheatsheet.pdf , page3 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [20 <./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=305, page=4, 597.50829pt x 845.0471pt>
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 4>
-Package pdftex.def Info: Cheatsheet.pdf , page4 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 4>
-Package pdftex.def Info: Cheatsheet.pdf , page4 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 4>
-Package pdftex.def Info: Cheatsheet.pdf , page4 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [21 <./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=310, page=5, 597.50829pt x 845.0471pt>
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 5>
-Package pdftex.def Info: Cheatsheet.pdf , page5 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 5>
-Package pdftex.def Info: Cheatsheet.pdf , page5 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 5>
-Package pdftex.def Info: Cheatsheet.pdf , page5 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [22 <./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=329, page=6, 597.50829pt x 845.0471pt>
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 6>
-Package pdftex.def Info: Cheatsheet.pdf , page6 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 6>
-Package pdftex.def Info: Cheatsheet.pdf , page6 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 6>
-Package pdftex.def Info: Cheatsheet.pdf , page6 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [23 <./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=334, page=7, 597.50829pt x 845.0471pt>
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 7>
-Package pdftex.def Info: Cheatsheet.pdf , page7 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 7>
-Package pdftex.def Info: Cheatsheet.pdf , page7 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 7>
-Package pdftex.def Info: Cheatsheet.pdf , page7 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [24 <./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=345, page=8, 597.50829pt x 845.0471pt>
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 8>
-Package pdftex.def Info: Cheatsheet.pdf , page8 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 8>
-Package pdftex.def Info: Cheatsheet.pdf , page8 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 8>
-Package pdftex.def Info: Cheatsheet.pdf , page8 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [25 <./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=351, page=9, 597.50829pt x 845.0471pt>
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 9>
-Package pdftex.def Info: Cheatsheet.pdf , page9 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 9>
-Package pdftex.def Info: Cheatsheet.pdf , page9 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 9>
-Package pdftex.def Info: Cheatsheet.pdf , page9 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [26 <./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=360, page=10, 597.50829pt x 845.0471pt>
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 10>
-Package pdftex.def Info: Cheatsheet.pdf , page10 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 10>
-Package pdftex.def Info: Cheatsheet.pdf , page10 used on input line 313.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 10>
-Package pdftex.def Info: Cheatsheet.pdf , page10 used on input line 313.
+<use Cheatsheet.pdf, page 2>
+Package pdftex.def Info: Cheatsheet.pdf , page2 used on input line 599.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [27 <./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=369, page=11, 597.50829pt x 845.0471pt>
+<Cheatsheet.pdf, id=405, page=3, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 11>
-Package pdftex.def Info: Cheatsheet.pdf , page11 used on input line 313.
+<use Cheatsheet.pdf, page 3>
+Package pdftex.def Info: Cheatsheet.pdf , page3 used on input line 599.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 11>
-Package pdftex.def Info: Cheatsheet.pdf , page11 used on input line 313.
+<use Cheatsheet.pdf, page 3>
+Package pdftex.def Info: Cheatsheet.pdf , page3 used on input line 599.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 11>
-Package pdftex.def Info: Cheatsheet.pdf , page11 used on input line 313.
+<use Cheatsheet.pdf, page 3>
+Package pdftex.def Info: Cheatsheet.pdf , page3 used on input line 599.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [28 <./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=374, page=12, 597.50829pt x 845.0471pt>
+<Cheatsheet.pdf, id=414, page=4, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 12>
-Package pdftex.def Info: Cheatsheet.pdf , page12 used on input line 313.
+<use Cheatsheet.pdf, page 4>
+Package pdftex.def Info: Cheatsheet.pdf , page4 used on input line 599.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 12>
-Package pdftex.def Info: Cheatsheet.pdf , page12 used on input line 313.
+<use Cheatsheet.pdf, page 4>
+Package pdftex.def Info: Cheatsheet.pdf , page4 used on input line 599.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 12>
-Package pdftex.def Info: Cheatsheet.pdf , page12 used on input line 313.
+<use Cheatsheet.pdf, page 4>
+Package pdftex.def Info: Cheatsheet.pdf , page4 used on input line 599.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [29 <./Cheatsheet.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
+<Cheatsheet.pdf, id=419, page=5, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 5>
+Package pdftex.def Info: Cheatsheet.pdf , page5 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 5>
+Package pdftex.def Info: Cheatsheet.pdf , page5 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 5>
+Package pdftex.def Info: Cheatsheet.pdf , page5 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [30 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=438, page=6, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 6>
+Package pdftex.def Info: Cheatsheet.pdf , page6 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 6>
+Package pdftex.def Info: Cheatsheet.pdf , page6 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 6>
+Package pdftex.def Info: Cheatsheet.pdf , page6 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [31 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=444, page=7, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 7>
+Package pdftex.def Info: Cheatsheet.pdf , page7 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 7>
+Package pdftex.def Info: Cheatsheet.pdf , page7 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 7>
+Package pdftex.def Info: Cheatsheet.pdf , page7 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [32 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=455, page=8, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 8>
+Package pdftex.def Info: Cheatsheet.pdf , page8 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 8>
+Package pdftex.def Info: Cheatsheet.pdf , page8 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 8>
+Package pdftex.def Info: Cheatsheet.pdf , page8 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [33 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=460, page=9, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 9>
+Package pdftex.def Info: Cheatsheet.pdf , page9 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 9>
+Package pdftex.def Info: Cheatsheet.pdf , page9 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 9>
+Package pdftex.def Info: Cheatsheet.pdf , page9 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [34 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=469, page=10, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 10>
+Package pdftex.def Info: Cheatsheet.pdf , page10 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 10>
+Package pdftex.def Info: Cheatsheet.pdf , page10 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 10>
+Package pdftex.def Info: Cheatsheet.pdf , page10 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [35 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=478, page=11, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 11>
+Package pdftex.def Info: Cheatsheet.pdf , page11 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 11>
+Package pdftex.def Info: Cheatsheet.pdf , page11 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 11>
+Package pdftex.def Info: Cheatsheet.pdf , page11 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [36 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=483, page=12, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 12>
+Package pdftex.def Info: Cheatsheet.pdf , page12 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 12>
+Package pdftex.def Info: Cheatsheet.pdf , page12 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 12>
+Package pdftex.def Info: Cheatsheet.pdf , page12 used on input line 599.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [37 <./Cheatsheet.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 601.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 601.
  (./Mathe3Formelsammlung.aux (./Title.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 601.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 601.
 Package rerunfilecheck Info: File `Mathe3Formelsammlung.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Mathe3Formelsammlung
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'Mathe3Formelsammlung.run.xml'.
 \openout1 = `Mathe3Formelsammlung.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43756 strings out of 493868
- 994834 string characters out of 6157622
- 1702412 words of memory out of 5000000
- 46724 multiletter control sequences out of 15000+600000
- 10762 words of font info for 40 fonts, out of 8000000 for 9000
+ 43982 strings out of 493868
+ 998515 string characters out of 6157622
+ 1710056 words of memory out of 5000000
+ 46909 multiletter control sequences out of 15000+600000
+ 16339 words of font info for 62 fonts, out of 8000000 for 9000
  374 hyphenation exceptions out of 8191
- 73i,19n,127p,9151b,2281s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ./Mathe3Formelsammlung.pdf (29 pages, 1245858 bytes).
+ 73i,19n,127p,9151b,2279s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ./Mathe3Formelsammlung.pdf (37 pages, 1306585 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 411 compressed objects within 5 object streams
- 56 named destinations out of 1000 (max. 500000)
- 391 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 698 PDF objects out of 1000 (max. 8388607)
+ 571 compressed objects within 6 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 503 words of extra memory for PDF output out of 10000 (max. 10000000)
 

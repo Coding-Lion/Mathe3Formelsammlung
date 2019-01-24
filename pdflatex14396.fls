@@ -1,0 +1,5 @@
+PWD c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung
+INPUT c:/texlive/2018/texmf.cnf
+INPUT c:/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex
