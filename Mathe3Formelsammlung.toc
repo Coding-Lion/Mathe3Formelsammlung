@@ -1,0 +1,40 @@
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Grundlagen und Wiederholung}{4}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Allgemeine trigonometrische Umformungen; Additionstheoreme und Doppelwinkelformeln}{4}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Komplexe Zahlen}{4}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}Darstellungsformen komplexer Zahlen}{4}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}Umrechnung verschiedener Darstellungsformen ineinander}{5}{subsection.1.2.2}% 
+\contentsline {subsection}{\numberline {1.2.3}Darstellung Sinus und Kosinus als komplexe Zahlen}{5}{subsection.1.2.3}% 
+\contentsline {section}{\numberline {1.3}Sinus Kardinalis}{6}{section.1.3}% 
+\contentsline {part}{\numberline {I}Transformationen und Verallgemeinerte Funktionen}{7}{part.1}% 
+\contentsline {chapter}{\numberline {2}Verallgemeinerte Funktionen}{8}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Heaviside-Funktion}{8}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Dirac-Distribution}{9}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Verallgemeinerte Ableitung}{9}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Grafisches Ableiten verallgemeinerter Funktionen}{10}{subsection.2.3.1}% 
+\contentsline {section}{\numberline {2.4}Faltung}{10}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Faltung mit \(\sigma (t)\)}{10}{section.2.5}% 
+\contentsline {section}{\numberline {2.6}Faltung mit \(\delta (t)\)}{10}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}Einseitige Faltung}{11}{section.2.7}% 
+\contentsline {chapter}{\numberline {3}Fourier-Transformation}{12}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Real- und Imagin\IeC {\"a}rteil direkt berechnen}{12}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Fourier-Transformation von geraden- und ungeraden Funktionen}{13}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Darstellung mit Amplituden- und Phasenwinkel}{13}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Inverse Fourier-Transformation}{13}{section.3.4}% 
+\contentsline {chapter}{\numberline {4}Laplacetransformation}{14}{chapter.4}% 
+\contentsline {chapter}{\numberline {5}z-Transformation}{15}{chapter.5}% 
+\contentsline {part}{\numberline {II}Statistik und Wahrscheinlichkeitsrechnung}{16}{part.2}% 
+\contentsline {chapter}{\numberline {6}Beschreibende Statistik}{17}{chapter.6}% 
+\contentsline {chapter}{\numberline {7}Kombinatorik und Wahrscheinlichkeitsrechnung}{18}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Kombinatorik}{18}{section.7.1}% 
+\contentsline {subsection}{\numberline {7.1.1}Permutation}{18}{subsection.7.1.1}% 
+\contentsline {section}{\numberline {7.2}Kombination und Variation}{18}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}Wahrscheinlichkeitsrechnung}{19}{section.7.3}% 
+\contentsline {subsection}{\numberline {7.3.1}Wahrscheinlichkeitsverteilungen}{19}{subsection.7.3.1}% 
+\contentsline {subsubsection}{\nonumberline Allgemeine Form}{19}{section*.3}% 
+\contentsline {subsubsection}{\nonumberline Hypergeometrische Verteilung}{20}{section*.4}% 
+\contentsline {subsubsection}{\nonumberline Binomialverteilung}{21}{section*.5}% 
+\contentsline {subsubsection}{\nonumberline Poissonverteilung}{22}{section*.6}% 
+\contentsline {subsection}{\numberline {7.3.2}Geometrische Verteilung}{22}{subsection.7.3.2}% 
+\contentsline {subsection}{\numberline {7.3.3}Exponentialverteilung}{22}{subsection.7.3.3}% 
+\contentsline {chapter}{\numberline {8}Tabellen aus Buch von Prof.\ Koch und Prof.\ St\IeC {\"a}mpfle}{23}{section*.7}% 

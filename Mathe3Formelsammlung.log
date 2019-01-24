@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.24)  24 JAN 2019 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.24)  24 JAN 2019 17:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1403,4 +1403,841 @@ If that doesn't work, type  X <return>  to quit.
 
 c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:347: Package xcolor Error: Undefined color `tikz@color'.
 
-See the xcolor p
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.347     \end{axis}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:347: Package pgfkeys Error: I do not know the key '/tikz/mygreen' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.347     \end{axis}
+                    
+(That was another \errmessage.)
+
+
+Overfull \hbox (14.58188pt too wide) in paragraph at lines 348--349
+[][] 
+ []
+
+[9]
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:359: LaTeX Error: Environment mathframed undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 \begin{mathframed}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:360: Missing $ inserted.
+<inserted text> 
+                $
+l.360   h(t) = f(t) \star
+                          g(t) = \int_{-\infty}^{\infty}f(\tau) \cdot g(t-\t...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:361: LaTeX Error: \begin{document} ended by \end{mathframed}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361 \end{mathframed}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:361: Missing $ inserted.
+<inserted text> 
+                $
+l.361 \end{mathframed}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 366.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\sigma' on input line 366.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 374.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delta' on input line 374.
+
+[10] [11]
+chapter 3.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:396: LaTeX Error: Environment mathframed undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.396 \begin{mathframed}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:397: Undefined control sequence.
+l.397   s(t)~\laplace
+                     ~S(f) = \int_{-\infty}^{\infty} s(t) e^{- \im 2\pi ft} dt
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:397: Missing $ inserted.
+<inserted text> 
+                $
+l.397   s(t)~\laplace~S(f) = \int
+                                 _{-\infty}^{\infty} s(t) e^{- \im 2\pi ft} dt
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:397: Undefined control sequence.
+l.397 ...) = \int_{-\infty}^{\infty} s(t) e^{- \im
+                                                   2\pi ft} dt
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:398: LaTeX Error: \begin{document} ended by \end{mathframed}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.398 \end{mathframed}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:398: Missing $ inserted.
+<inserted text> 
+                $
+l.398 \end{mathframed}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (7.80244pt too wide) in paragraph at lines 402--403
+\OT1/cmss/m/n/12 In der Re-gel ist das Er-geb-nis ei-ner Fou-rier-trans-for-ma-ti-on ei-ne kom-plex-wer-ti-ge Funk-ti-on. Nat[]urlich
+ []
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:404: LaTeX Error: Environment mathframed undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.404 \begin{mathframed}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:405: Missing $ inserted.
+<inserted text> 
+                $
+l.405   \operatorname{Re}
+                          (z) &= \int_{- \infty}^{\infty} s(t)\ \cos (2\pi f...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:405: Misplaced alignment tab character &.
+l.405   \operatorname{Re} (z) &
+                               = \int_{- \infty}^{\infty} s(t)\ \cos (2\pi f...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:406: Misplaced alignment tab character &.
+l.406   \operatorname{Im} (z) &
+                               = -\int_{- \infty}^{\infty} s(t)\ \sin (2\pi ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:407: LaTeX Error: \begin{document} ended by \end{mathframed}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.407 \end{mathframed}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:407: Missing $ inserted.
+<inserted text> 
+                $
+l.407 \end{mathframed}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[12
+
+]
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:413: Undefined control sequence.
+l.413 ...die zu transformierende Funktion \mybfcol
+                                                  {gerade}, so ist die Trans...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:413: Undefined control sequence.
+l.413 ...rade}, so ist die Transformierte \mybfcol
+                                                  {rein reell und ebenfalls ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:415: LaTeX Error: Environment mathframed undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.415 \begin{mathframed}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:416: Missing $ inserted.
+<inserted text> 
+                $
+l.416   S(f) = \operatorname{Re}
+                                (f) = 2 \int_{0}^{\infty} s(t)\ \cos (2\pi f...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:417: LaTeX Error: \begin{document} ended by \end{mathframed}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.417 \end{mathframed}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:417: Missing $ inserted.
+<inserted text> 
+                $
+l.417 \end{mathframed}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:419: Undefined control sequence.
+l.419 ...p lässt sich auf die Berechnung \mybfcol
+                                                  {ungerader} Funktionen anw...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:419: Undefined control sequence.
+l.419 ...den. Hier ist die Transformierte \mybfcol
+                                                  {rein imaginär und ungera...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:421: LaTeX Error: Environment mathframed undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.421 \begin{mathframed}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:422: Undefined control sequence.
+l.422   S(f) = \im
+                   \operatorname{Im}(f) = -2\im \int_{0}^{\infty}s(t)\ \sin ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:422: Missing $ inserted.
+<inserted text> 
+                $
+l.422   S(f) = \im \operatorname{Im}
+                                    (f) = -2\im \int_{0}^{\infty}s(t)\ \sin ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:422: Undefined control sequence.
+l.422   S(f) = \im \operatorname{Im}(f) = -2\im
+                                                \int_{0}^{\infty}s(t)\ \sin ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:423: LaTeX Error: \begin{document} ended by \end{mathframed}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.423 \end{mathframed}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:423: Missing $ inserted.
+<inserted text> 
+                $
+l.423 \end{mathframed}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:429: LaTeX Error: Environment mathframed undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.429 \begin{mathframed}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:430: Missing $ inserted.
+<inserted text> 
+                $
+l.430   S(f) = |S(f)| e^
+                        {\im\varphi (f)}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:430: Undefined control sequence.
+l.430   S(f) = |S(f)| e^{\im
+                            \varphi (f)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:431: LaTeX Error: \begin{document} ended by \end{mathframed}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.431 \end{mathframed}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:431: Missing $ inserted.
+<inserted text> 
+                $
+l.431 \end{mathframed}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 435.
+LaTeX Font Info:    No file OMScmss.fd. on input line 435.
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 435.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:435: Undefined control sequence.
+l.435 ...+ \operatorname{Im}(f)^2}\) eine \mybfcol
+                                                  {gerade, reelle} Funktion
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:436: Undefined control sequence.
+l.436 ...(S(f)) = \arg (\operatorname{Re}(f) + \im
+                                                  \operatorname{Im}(f))\) ei...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:436: Undefined control sequence.
+l.436 ... \im\operatorname{Im}(f))\) eine \mybfcol
+                                                  {ungerade, reelle} Funktion.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (0.32254pt too wide) in paragraph at lines 439--440
+[]\OT1/cmss/m/n/12 Diese Dar-stel-lung fin-det ins-be-son-de-re in der Elek-tro-tech-nik ih-re An-wen-dung (Bode-Diagramm). 
+ []
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:446: LaTeX Error: Environment mathframed undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.446 \begin{mathframed}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:447: Undefined control sequence.
+l.447   S(f)~\Laplace
+                     ~s(t) = \int_{-\infty}^{\infty} S(f) e^{\im 2 \pi f} df
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:447: Missing $ inserted.
+<inserted text> 
+                $
+l.447   S(f)~\Laplace~s(t) = \int
+                                 _{-\infty}^{\infty} S(f) e^{\im 2 \pi f} df
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:447: Undefined control sequence.
+l.447 ...(t) = \int_{-\infty}^{\infty} S(f) e^{\im
+                                                   2 \pi f} df
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:448: LaTeX Error: \begin{document} ended by \end{mathframed}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.448 \end{mathframed}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:448: Missing $ inserted.
+<inserted text> 
+                $
+l.448 \end{mathframed}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[13
+
+]
+chapter 4.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:456: LaTeX Error: Environment mathbox undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.456 \begin{mathbox}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:457: Undefined control sequence.
+l.457     f(t)~\laplace
+                       ~F(s) = \int_0^{\infty}f(t) \cdot e^{-st} dt
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:457: Missing $ inserted.
+<inserted text> 
+                $
+l.457     f(t)~\laplace~F(s) = \int
+                                   _0^{\infty}f(t) \cdot e^{-st} dt
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:458: LaTeX Error: \begin{document} ended by \end{mathbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.458 \end{mathbox}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/LeSch/Documents/latex/Mathe3Formelsammlung/Mathe3Formelsammlung.tex:458: Missing $ inserted.
+<inserted text> 
+                $
+l.458 \end{mathbox}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[14
+
+
+]
+chapter 5.
+[15
+
+]
+part II.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 461.
+[16
+
+]
+chapter 6.
+[17
+
+]
+chapter 7.
+<Grafiken/Kombinatorik.png, id=152, 767.11594pt x 551.05875pt>
+File: Grafiken/Kombinatorik.png Graphic file (type png)
+<use Grafiken/Kombinatorik.png>
+Package pdftex.def Info: Grafiken/Kombinatorik.png  used on input line 485.
+(pdftex.def)             Requested size: 455.24411pt x 327.03056pt.
+[18
+
+] [19 <./Grafiken/Kombinatorik.png (PNG copy)>] [20]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 566.
+
+[21] [22]
+<Cheatsheet.pdf, id=188, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf>
+Package pdftex.def Info: Cheatsheet.pdf  used on input line 595.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf>
+Package pdftex.def Info: Cheatsheet.pdf  used on input line 595.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<Cheatsheet.pdf, id=191, page=1, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 1>
+Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 595.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 1>
+Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 1>
+Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 1>
+Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 1>
+Package pdftex.def Info: Cheatsheet.pdf , page1 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [23
+
+ <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=249, page=2, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 2>
+Package pdftex.def Info: Cheatsheet.pdf , page2 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 2>
+Package pdftex.def Info: Cheatsheet.pdf , page2 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 2>
+Package pdftex.def Info: Cheatsheet.pdf , page2 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [24 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=260, page=3, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 3>
+Package pdftex.def Info: Cheatsheet.pdf , page3 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 3>
+Package pdftex.def Info: Cheatsheet.pdf , page3 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 3>
+Package pdftex.def Info: Cheatsheet.pdf , page3 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [25 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=269, page=4, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 4>
+Package pdftex.def Info: Cheatsheet.pdf , page4 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 4>
+Package pdftex.def Info: Cheatsheet.pdf , page4 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 4>
+Package pdftex.def Info: Cheatsheet.pdf , page4 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [26 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=274, page=5, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 5>
+Package pdftex.def Info: Cheatsheet.pdf , page5 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 5>
+Package pdftex.def Info: Cheatsheet.pdf , page5 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 5>
+Package pdftex.def Info: Cheatsheet.pdf , page5 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [27 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=293, page=6, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 6>
+Package pdftex.def Info: Cheatsheet.pdf , page6 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 6>
+Package pdftex.def Info: Cheatsheet.pdf , page6 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 6>
+Package pdftex.def Info: Cheatsheet.pdf , page6 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [28 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=298, page=7, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 7>
+Package pdftex.def Info: Cheatsheet.pdf , page7 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 7>
+Package pdftex.def Info: Cheatsheet.pdf , page7 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 7>
+Package pdftex.def Info: Cheatsheet.pdf , page7 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [29 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=309, page=8, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 8>
+Package pdftex.def Info: Cheatsheet.pdf , page8 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 8>
+Package pdftex.def Info: Cheatsheet.pdf , page8 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 8>
+Package pdftex.def Info: Cheatsheet.pdf , page8 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [30 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=314, page=9, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 9>
+Package pdftex.def Info: Cheatsheet.pdf , page9 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 9>
+Package pdftex.def Info: Cheatsheet.pdf , page9 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 9>
+Package pdftex.def Info: Cheatsheet.pdf , page9 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [31 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=324, page=10, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 10>
+Package pdftex.def Info: Cheatsheet.pdf , page10 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 10>
+Package pdftex.def Info: Cheatsheet.pdf , page10 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 10>
+Package pdftex.def Info: Cheatsheet.pdf , page10 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [32 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=333, page=11, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 11>
+Package pdftex.def Info: Cheatsheet.pdf , page11 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 11>
+Package pdftex.def Info: Cheatsheet.pdf , page11 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 11>
+Package pdftex.def Info: Cheatsheet.pdf , page11 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [33 <./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=339, page=12, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 12>
+Package pdftex.def Info: Cheatsheet.pdf , page12 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 12>
+Package pdftex.def Info: Cheatsheet.pdf , page12 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 12>
+Package pdftex.def Info: Cheatsheet.pdf , page12 used on input line 595.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [34 <./Cheatsheet.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 597.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 597.
+ (./Mathe3Formelsammlung.aux (./Title.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 597.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 597.
+
+
+Package rerunfilecheck Warning: File `Mathe3Formelsammlung.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Mathe3Formelsammlung.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 597.
+ ) 
+Here is how much of TeX's memory you used:
+ 35513 strings out of 493868
+ 830190 string characters out of 6157622
+ 1172529 words of memory out of 5000000
+ 38535 multiletter control sequences out of 15000+600000
+ 18448 words of font info for 69 fonts, out of 8000000 for 9000
+ 372 hyphenation exceptions out of 8191
+ 73i,19n,107p,9151b,2184s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ./Mathe3Formelsammlung.pdf (34 pages, 1273754 bytes).
+PDF statistics:
+ 550 PDF objects out of 1000 (max. 8388607)
+ 428 compressed objects within 5 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 511 words of extra memory for PDF output out of 10000 (max. 10000000)
+
