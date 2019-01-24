@@ -1,44 +1,262 @@
 \ProvidesPackage{mystyle}
 
-\usepackage[margin=2.5cm]{geometry} % Sets Left and right Margins to be 2.5cm 
+\usepackage[margin=2.5cm, a4paper]{geometry}                     % Sets Left and right Margins to be 2.5cm 
 \usepackage[ngerman]{babel}
-\usepackage[utf8]{inputenc}
+
+% --------------- Fonts ----------------
+%\usepackage{fontspec}                                            % Fonts (Nur verfügbar in luatex)
+%\setmainfont{Source Serif Pro}
+%\setsansfont{Fira Sans}
+%\setmonofont[Scale=0.95]{Source Code Pro}
+
+% \renewcommand{\familydefault}{\sfdefault} % Setzt gesamtes Dokument serifenlos
+
+% ------------------------------ Colors -------------------------
+\usepackage{xcolor}
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+\colorlet{myred}{red!70!black}                                   % Definiere eigene Farbe
+\colorlet{mygreen}{green!40!black}
+\colorlet{myblue}{blue!25!black}
+\definecolor{hsred}{HTML}{d20233}
+
+\colorlet{maincolor}{myred}
+
 \usepackage{mathtools}
 \usepackage{empheq}
 \usepackage{gensymb}
 \usepackage{framed}
 \usepackage{float}
 
-\usepackage{xcolor}
-\colorlet{myred}{red!70!black}                              % Definiere eigene Farbe
-\newcommand{\mybfred}[1]{\textbf{\textcolor{myred}{#1}}}    % Mein erster, komplett eigener Latex-Macro!!!
+\usepackage{listings}
 
-\usepackage{svg}
-\usepackage[colorlinks=true, linkcolor=black, linktoc=all]{hyperref}
-\usepackage{makecell}                                       % To keep spacing of text in tables
-\setcellgapes{4pt}                                          % Parameter for the spacing
+\lstset{
+  language = Python,
+  language = C,
+  language = Matlab,
+  showstringspaces = false,
+  breaklines = true,
+  captionpos = b,
+  numbers = left,
+  firstnumber = auto,
+  frame = lines,
+  basicstyle = \ttfamily,
+  commentstyle = \itshape\textcolor{gray},
+  keywordstyle = \bfseries\textcolor{maincolor},
+}
 
-\renewcommand{\familydefault}{\sfdefault}                   % Schreibe das gesamte Dokument in serifenloser Schrift (außer Math-Modes)
+\newfloat{lstfloat}{htbp}{lop}
+\floatname{lstfloat}{Listing}
+\def\lstfloatautorefname{Listing}
 
+\usepackage{svg}                                                 % Relies on inkscape being installed; can only work with the -shell-escape option
 
-\everymath{\displaystyle}                                   % Macht alles Mathezeugs ein bisschen größer und besser lesbar
+\usepackage{booktabs}                                            % Für schöne Tabellenstriche
+\usepackage{tabularx}                                            % Für schöne Tabellen
+\usepackage{makecell}                                            % To keep spacing of text in tables
+% \setcellgapes{4pt}                                               % Parameter for the spacing
 
-\makeatletter                                               % Macht Mathe-Zeichen in Überschriften dicker
+\renewcommand{\cellalign}{cl}                                    % For makecell package; lets arguments inside \makecell-command being compiled centered vertically and leftbound horizontally
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}        % Parameters for table columns with a given width
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+% \everymath{\displaystyle}                                        % Macht alles Mathezeugs ein bisschen größer und besser lesbar
+
+\makeatletter                                                    % Macht Mathe-Zeichen in Überschriften dicker
 \g@addto@macro\bfseries{\boldmath}
 \makeatother
 
-\setlength\extrarowheight{5pt}                              % Macht Tabellenzeilen etwas höher
+% \setlength\extrarowheight{5pt}                                   % Macht Tabellenzeilen etwas höher
 
-\renewcommand*\sectfont{\color{myred}\sffamily\bfseries}    % Macht Überschriften rot
-\addtokomafont{paragraph}{\normalcolor\normalfont}          % Verhindert, dass Paragraph-Headings als Überschriften dargestellt werden
-\setkomafont{caption}{\footnotesize}                        % Macht alle Bild- oder Tabellen-Unterschriften klein
+\renewcommand*\sectfont{\color{maincolor}\sffamily}         % Macht Überschriften rot
+% \addtokomafont{paragraph}{\normalcolor\normalfont}             % Verhindert, dass Paragraph-Headings als Überschriften dargestellt werden
+\setkomafont{caption}{\footnotesize}                             % Macht alle Bild- oder Tabellen-Unterschriften klein
 \setkomafont{captionlabel}{\usekomafont{caption}} 
 
-\newcommand{\myhspace}{\-\hspace{1.5cm}}                    % Eigener LaTeX-Macro: Rückt Zeilen um 1.5 cm ein
-\newcommand{\mytextred}[1]{\textcolor{myred}{#1}}           % Eigener LaTeX-Macro: Druckt Wörter in rot
-\renewcommand{\textbf}[1]{{\bfseries\textcolor{myred}{#1}}} % Achtung: textbf wird überschrieben! Alles in textbf wird zusätzlich rot
+\ifx\chapter\undefined
+\addtokomafont{sectionentry}{\mdseries}
+\else
+\addtokomafont{chapterentry}{\mdseries}
+\fi
 
-\setlength{\parindent}{0pt}                                 % Neue Paragraphen beginnen nicht eingerückt
-\setlength{\parskip}{1em}                                   % Jeder neue Paragraph wird mit einer Zeile Abstand formatiert
+\KOMAoptions{
+  listof=totoc}                                                  % Fügt in KOMA-Script-Klassen Verzeichnisse ins Inhaltsverzeichnis ein
 
-\setcounter{tocdepth}{6}                                    % Alles, auch Paragraphen mit Überschrift kommen ins Inhaltsverzeichnis
+
+\newcommand{\myhspace}{\-\hspace{1.5cm}}                         % Eigener LaTeX-Macro: Rückt Zeilen um 1.5 cm ein
+\newcommand{\mytextcol}[1]{\textcolor{maincolor}{#1}}                % Eigener LaTeX-Macro: Druckt Wörter in rot
+\newcommand{\mybfcol}[1]{{\bfseries{\textcolor{maincolor}{#1}}}}     % Mein erster, komplett eigener Latex-Macro!!!
+
+\setlength{\parindent}{0pt}                                      % Neue Paragraphen beginnen nicht eingerückt
+\setlength{\parskip}{1em}
+\linespread{1.25}                                                % Zeilenabstand Seltsamer Wert, entspricht Microsoft Word, 1.5 Zeilenabstand
+
+
+\makeatletter
+\def\@listI{\leftmargin\leftmargini
+  \parsep 4\p@ \@plus2\p@ \@minus\p@
+  % \topsep 8\p@ \@plus2\p@ \@minus4\p@
+  \topsep\z@
+  \itemsep4\p@ \@plus2\p@ \@minus\p@}
+\makeatother
+
+\setcounter{tocdepth}{6}                                         % Alles, auch Paragraphen mit Überschrift kommen ins Inhaltsverzeichnis
+
+
+% ----------------------- Eigene Kommandos und Umgebungen -------------------------
+\newcommand\kariert[2][0.5cm]{                                   % 
+  \begin{tikzpicture}[gray,step=#1]
+    \pgfmathtruncatemacro\anzahl{(\linewidth-\pgflinewidth)/#1} % maximale Anzahl Kästchen pro Zeile
+    \draw (0,0) rectangle (\anzahl*#1,#2*#1) (0,0) grid (\anzahl*#1,#2*#1);
+  \end{tikzpicture} 
+}
+
+\newcommand{\phantomul}[1]{\underline{\phantom{\hspace*{1cm}#1}}}
+
+\newenvironment{mathframed}{\empheq[box={\fbox}]{align*}}{\endempheq}
+
+% ------------------------ Tcolorbox --------------------
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+\tcbset{drop fuzzy shadow, enhanced, colback=white, colframe=maincolor}
+
+\newtcolorbox{mathbox}{leftrule=4mm, hbox, before upper={\(\begin{aligned}}, after upper={\end{aligned}\)}}
+
+\newtcolorbox{mybox}{leftrule=4mm, hbox}
+
+\newtcolorbox{mytitlebox}[1][]{hbox, fonttitle=\bfseries, title=#1}
+
+% --------------------- Zitationen -----------------------
+\usepackage[
+backend=biber,
+style=authoryear-ibid,                                          % Zuerst Autor, dann Jahr, ebd. wenn Zitate hintereinander
+citetracker=true,                                               % Soll Zitate mitzählen
+maxcitenames=2,                                                 % Führt dazu, dass Maximal 2 Autoren im Textzitat hintereinander ausgegeben werden
+sorting=nty                                                     % Führt dazu, dass im Literaturverzeichnis nach Autorenname, Titel, Jahr sortiert wird
+]{biblatex}
+
+\renewcommand*{\nameyeardelim}{\addcomma\space}                  % Fügt zwischen Autor und Jahr ein Komma ein
+
+% Bei Mehrfachzitation eines Werkes von mehr als 2 Autoren wird die Autorenschaft mit et.al
+% abgekürzt.
+% untenstehender Code bewirkt, dass dieses Verhalten erst nach dem ersten Zitat erreicht wird,
+% damit mindestens einmal die gesamte Autorenschaft im Text erwähnt wird.
+% Quelle: https://tex.stackexchange.com/questions/48846/biblatex-et-al-beginning-from-second-citation/48857
+\AtEveryCitekey{\ifciteseen{}{\defcounter{maxnames}{99}}}%
+
+% Bei mehr als einem Autor werden alle Autoren mit Komma getrennt, letzter wird mit "und"
+% hinzugefügt.
+% untenstehender Code bewirkt, dass statt dem "und" ein & verwendet wird.
+% Quelle: https://tex.stackexchange.com/questions/68053/use-ampersand-in-citations-and-bibliography-in-biblatex
+\renewcommand*{\finalnamedelim}{                                 %
+  \ifnumgreater{\value{liststop}}{2}{\finalandcomma}{}           %
+  \addspace\&\space}
+
+% Bei mehreren Autoren mit dem selben Nachnamen wird die erste Initialie des Vornamens
+% zusätzlich ausgegeben.
+% untenstehender Code macht anstatt T. Hilt, Hilt T.
+% Quelle: https://tex.stackexchange.com/questions/329506/initial-after-last-name-in-citation
+% NEVER CHANGE %-SYMBOLS!!!
+\DeclareNameFormat{labelname}{%
+  \ifcase\value{uniquename}%
+  \usebibmacro{name:family}
+  {\namepartfamily}
+  {\namepartgiven}
+  {\namepartprefix}
+  {\namepartsuffix}%
+  \or
+  \ifuseprefix
+  {\usebibmacro{name:family-given}
+    {\namepartfamily}
+    {\namepartgiveni}
+    {\namepartprefix}
+    {\namepartsuffixi}}
+  {\usebibmacro{name:family-given}
+    {\namepartfamily}
+    {\namepartgiveni}
+    {\namepartprefixi}
+    {\namepartsuffixi}}%
+  \or
+  \usebibmacro{name:family-given}
+  {\namepartfamily}
+  {\namepartgiven}
+  {\namepartprefix}
+  {\namepartsuffix}%
+  \fi
+  \usebibmacro{name:andothers}}
+
+% Make the whole citation clickable
+% Taken from: https://tex.stackexchange.com/questions/1687/hyperlink-name-with-biblatex-authoryear
+
+\DeclareCiteCommand{\cite}
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand*{\cite}
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{citeyear}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\parencite}[\mkbibparens]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+    \printtext[bibhyperref]{\usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand*{\parencite}[\mkbibparens]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+    \printtext[bibhyperref]{\usebibmacro{citeyear}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\footcite}[\mkbibfootnote]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+  \printtext[bibhyperref]{ \usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\footcitetext}[\mkbibfootnotetext]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\textcite}
+  {\boolfalse{cbx:parens}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{textcite}}}
+  {\ifbool{cbx:parens}
+     {\bibcloseparen\global\boolfalse{cbx:parens}}
+     {}%
+   \multicitedelim}
+  {\usebibmacro{textcite:postnote}}
+
+% Wenn Zitation mehrerer Autoren mehrfach verwendet wird soll erster Autor + et.al eingefügt
+% werden.
+% untenstehender Code wechselt vom deutschen u.a. in et.al zurück.
+% Quelle: https://golatex.de/biblatex-apa-u-a-in-et-al-umwandeln-t10074.html
+\DefineBibliographyStrings{ngerman}{ 
+  andothers = {{et\,al\adddot}},             
+}
+
+% ---------------- hyperref sollte zuletzt importiert werden! ------------------
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks = true,
+  linkcolor = black,
+  linktoc = all,
+  urlcolor = blue,
+  citecolor = black,
+}
